@@ -143,7 +143,7 @@ Here are the drawings of the wireframes for the browsers and for smartphones:
 
 Here is the outlined flow chart:
 
-![Drawn flowchart of the project](readme-images/flowchart_p5.png)
+![Drawn flowchart of the project](readme-images/flowchart-p5.png)
 
 #### Entity Relationship Diagram
 
