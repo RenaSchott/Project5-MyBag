@@ -10,19 +10,16 @@ View the live project here: <>
 - [MyBag](#mybag)
   - [Table of content](#table-of-content)
   - [UX](#ux)
-    - [Site owner goals](#site-owner-goals)
+    - [Website owner goals](#website-owner-goals)
+    - [Application type](application-type)
     - [Agile planning](#agile-planning)
       - [Milestones](#milestones)
       - [User stories](#user-stories)
-        - [As a visitor](#as-a-visitor)
-        - [As the administrator](#as-the-administrator)
-        - [As the developer](#as-the-developer)
       - [Wireframes](#wireframes)
       - [Flow Chart](#flow-chart)
       - [Method](#method)
         - [POC (prove of concept)](#poc-(prove-of-concept))
         - [MVP (minimum viable product)](#mvp-(minimum-viable-product))
-      - [Tasks in product backlog (with (untested) storypoints)] (#tasks-in-procduct-backlog-(with-(untested))-storypoints)
     - [Features](#features)
     - [Welcome screen](#welcome-screen)
     - [Username](#username)
@@ -53,6 +50,12 @@ As the owner of the website I want to sells different bags for everyone:
 - Within the first two month I want to sell 100 bags.
 - Within the first six month I want to have 100 registered repeat buyers and I want to sell 1000 bags.
 - Each month I want to have at least 100 persons visiting my website.
+
+### Application Type
+
+**Who is the customer?:** B2C 
+**What will they buy?:** products: different bags
+**How will they pay?:** one time payment
 
 ### Agile planning
 
@@ -162,9 +165,14 @@ Here is the outlined ERD:
 - Edit shopping cart
 - Edit items
 - Edit categories
+- Authentification
+- payment method
+- search and filter function
+- image storage
 
 ##### MVP (minimum viable product)
 
+- Search and filter items and categories
 - Interacting with item
     - view sizes
     - view colors
@@ -188,7 +196,14 @@ Here is the outlined ERD:
     - via clicking
         - view details
         - edit amount of each item
-        - delete item   
+        - delete item
+- Edit items/categories
+    - delete
+    - edit
+    - add
+        - images
+        - description
+        - amount    
 
 
 ## Features
