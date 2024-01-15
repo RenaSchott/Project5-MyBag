@@ -115,41 +115,41 @@ The user stories can be found here <https://github.com/RenaSchott/Project5-MyBag
 Here are the drawings of the wireframes for the browsers and for smartphones:
 
 **Homepage:**
-![Drawing of the homepage](readme-images/wireframe1.png)
-![Drawing of the homepage](readme-images/wireframe6.png)
+![Drawing of the homepage](readmeimages/wireframe1.png)
+![Drawing of the homepage](readmeimages/wireframe2.png)
 
 **Register:**
-![Drawing of the register page](readme-images/wireframe3.png)
-![Drawing of the register page](readme-images/wireframe4.png)
+![Drawing of the register page](readmeimages/wireframe3.png)
+![Drawing of the register page](readmeimages/wireframe4.png)
 
 **Log In:**
-![Drawing of the log in page](readme-images/wireframe1.png)
-![Drawing of the log in page](readme-images/wireframe2.png)
+![Drawing of the log in page](readmeimages/wireframe5.png)
+![Drawing of the log in page](readmeimages/wireframe6.png)
+
+**Shopping Cart:**
+![Drawing of the shopping cart](readmeimages/wireframe7.png)
+![Drawing of the shopping cart](readmeimages/wireframe8.png)
 
 **Personal user page:**
-![Drawing of the personal user page](readme-images/wireframe11.png)
-![Drawing of the personal user page](readme-images/wireframe12.png)
+![Drawing of the personal user page](readmeimages/wireframe11.png)
+![Drawing of the personal user page](readmeimages/wireframe12.png)
 
 **Add review:**
-![Drawing of the add review page](readme-images/wireframe9.png)
-![Drawing of the add review page](readme-images/wireframe10.png)
-
-**Add comment:**
-![Drawing of the add comment page](readme-images/wireframe7.png)
-![Drawing of the add comment page](readme-images/wireframe8.png)
+![Drawing of the add review page](readmeimages/wireframe9.png)
+![Drawing of the add review page](readmeimages/wireframe10.png)
 
 
 #### Flow Chart
 
 Here is the outlined flow chart:
 
-![Drawn flowchart of the project](read-me-images/flowchart_P4.png)
+![Drawn flowchart of the project](readmeimages/flowchart_P4.png)
 
 #### Entity Relationship Diagram
 
 Here is the outlined ERD:
 
-![Drawn entity relationship diagram of the project](read-me-images/erd_P4.png)
+![Drawn entity relationship diagram of the project](readmeimages/erd_P4.png)
 
 #### Method
 
