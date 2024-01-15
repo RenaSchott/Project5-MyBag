@@ -11,7 +11,7 @@ View the live project here: <>
   - [Table of content](#table-of-content)
   - [UX](#ux)
     - [Website owner goals](#website-owner-goals)
-    - [Application type](application-type)
+    - [Application type](#application-type)
     - [Agile planning](#agile-planning)
       - [Milestones](#milestones)
       - [User stories](#user-stories)
