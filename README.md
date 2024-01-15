@@ -143,13 +143,13 @@ Here are the drawings of the wireframes for the browsers and for smartphones:
 
 Here is the outlined flow chart:
 
-![Drawn flowchart of the project](readme-images/flowchart_P5.png)
+![Drawn flowchart of the project](readme-images/flowchart_p5.png)
 
 #### Entity Relationship Diagram
 
 Here is the outlined ERD:
 
-![Drawn entity relationship diagram of the project](readmeimages/erd_P4.png)
+![Drawn entity relationship diagram of the project](readme-images/erd-p5.png)
 
 #### Method
 
