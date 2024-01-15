@@ -157,29 +157,38 @@ Here is the outlined ERD:
 
 - Register
 - Log in and out
-- Uploading/Deleting image
-- Adding comments
-- Adding reviews
-- Editing reviews
-- Rating system
+- Adding reviews with ratings
+- View items
+- Edit shopping cart
+- Edit items
+- Edit categories
 
 ##### MVP (minimum viable product)
 
-- Interacting with an existing entry
-    - Commenting on an entry
+- Interacting with item
+    - view sizes
+    - view colors
 - Create new account
 - Logging in and out of the page
-    - Making a new entry
-        - Adding an image of a board game
-        - Adding an review
-        - Rating the board game
-    - Editing own entries
-        - Deleting own image of a board game
-        - Load other image
-        - Editing own reviews
-    - Interacting with other entries
-        - Writing own review
-        - Rating the board game 
+    - Make a new order
+        - Adding items
+        - Deleting items
+        - Change amount of items
+    - View orders
+        - view order list
+        - view order details
+        - view shipping and payment status
+    - View personal details
+        - Edit shipping adress
+        - Edit billing adress
+        - Edit payment method
+- View shopping cart
+    - via hover
+        - view short overview
+    - via clicking
+        - view details
+        - edit amount of each item
+        - delete item   
 
 
 ## Features
@@ -202,18 +211,10 @@ Here is the outlined ERD:
 There is the possibility to integrate:
 
 - **V2 (version 2)**
-    - Rating system 
-        - Divided up for each year
-        - Divided into complexity
-        - Divided into family, connoisseur and expert board game
-    - Images 
-        - Expand upload capacity
-    - Adding chat/message function
-    - Adding extra forum for further exchange
-    - Edit own account
-        - Personal data
-        - Upload personal image
-        - Delete Account
+    - Advertisement
+        - Add
+        - Delete
+        - Edit
 
 ## Used Technologies
 
