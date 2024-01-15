@@ -78,110 +78,65 @@ The milestones can be found here <https://github.com/RenaSchott/Project5-MyBag/m
 
 The user stories can be found here <https://github.com/RenaSchott/Project5-MyBag/issues>.
 
-
-AB HIER NOCH BEARBEITEN!!!!
-
-
-
-
-
-##### As the developer
-- **Preparation:** As a **developer** I need to **setup my project** so **I can create work on it.** 
-  - **Acceptance Criteria:**
-    - Coding is about to start 
-    - Readme file is up to date
-    - Deploy project
-
-##### As a visitor
-
-- **View newest reviews:**  As a **Site User** I can **view the reviews on the starting page** so that **I can select a specific one to read.**
-  - **Acceptance Criteria:**
-    - homepage is styled and structured
-    -  page is scrollable
-
-- **Open a review:** As a **Site User** I can **open a review** so that **I can read the full text.**
-  - **Acceptance Criteria:**
-    - An expand button is showing
-    - button is clickable
-    - full review is showing
-    - site is scrollable
-- **View ratings:** As a **Site User** I can **view the ratings on the starting page** so that **I can get an impression of the specific board game.**
-  - **Acceptance Criteria:**
-    - homepage is styled and structured
-    - ratings are shown
-- **Search:** As a **Site User** I can **use the search bar** so that **I can look for a specific board game.**
-  - **Acceptance Criteria:**
-    - in to top left a search bar is shown
-    - search results will be displayed
-- **View comments:** As a **Site User** I can **view the comments of other people** so that **I can get to know their opinion on the review.**
-  - **Acceptance Criteria:**
-    - number of comments is shown on homepage
-    - button is clickable
-    - all existingcomments are shown 
-- **Comment on a review:** As a **Site User** I can **comment on a review** so that **I can share my opinion on that.**
-  - **Acceptance Criteria:**
-    - Clickable button is shown on website
-    - form is opening
-    - comment is addable
-- **Account registration:** As a **Site User** I can **register an account** so that **I can add reviews and ratings.**
-  - **Acceptance Criteria:**
-    - Clickable button exists on homepage
-    - form opens
-    - registration is possible
-- **Create new reviews/ratings:** As a **Site User** I can **create new reviews and ratings** so that **I can contribute to the sites grows.**
-  - **Acceptance Criteria:**
-    - Button is clickable 
-    - form is opening
-    - review and rating is added
-- **Add my own review/ratings:** As a **Site User** I can **add my own reviews and ratings on already reviewed board games** so that **I can share my personal opinion.**
-  - **Acceptance Criteria:**
-    - Button is clickable 
-    - form is opening
-    - image can be added
-    - review and rating is added
-- **Manage reviews:** As a **Site User** I can **create, read, update and delete my reviews** so that **I can manage my contents.**
-  - **Acceptance Criteria:**
-    - reviews/ratings are shown on personal site
-    - button is clickable
-    - form opens
-    - editing is shown
-
-##### As the administrator
-
-- **Manage comments/reviews:** As **the Admin** I can **manage the comments and reviews** so that **I can make sure that the site contributes to the grows of the community in a friendly and social way.**
-  - **Acceptance Criteria:**
-    - an overview of the reviews and comments is shown
-    - page is scrollable
-    - complete deletion and part deletion is possible
-    - editing is possible
+- As a developer I want to be able to write User Stories, Milestones and set up the Kanban Board for the project so that I can keep track of the progress of the project.
+- As a developer I want to be able to use wireframes, flowchart and ERD so that I can built the wanted site.
+- As a developer I want to be able to deploy my project early so that I can find problems and avoid stress in the end.
+- As a developer I want to be able to finish the Readme File so that I can finish the project.
+- As a developer I want to be able to make the final deployment so that I can submit a working project.
+- As a shopper I want to be able to view a list of products so that I can select some to purchase.
+- As a shopper I want to be able to view individual product details so that I can identify the price, description, product rating, product image and available sizes.
+- As a shopper I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I’d like to purchase.
+- As a shopper I want to be able to easily view the total of my purchase at any time so that I can avoid spending too much.
+- As a site user I want to be able to easily register for an account so that I can have a personal account and be able to view my profile.
+- As a site user I want to be able to easily login or logout so that I can access my personal account information.
+- As a site user I want to be able to easily recover my password in case I forget it so that I can recover access to my account.
+- As a site user I want to be able to receive an email confirmation after registering so that I can verify that my account registration was successful.
+- As a site user I want to be able to have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information.
+- As a shopper I want to be able to sort the list of available products so that I can easily identify the best rated, best priced and categorically sorted products.
+- As a shopper I want to be able to sort a specific category of product so that I can find the best-priced or best-rated product in a specific category, or sort the products in that category by name.
+- As a shopper I want to be able to sort multiples categories of products simultaneously so that I can find the best-priced or best-rated products across broad categoried, such as „school bags“.
+- As a shopper I want to be able to search for a product by name or description so that I can find a specific product I’d like to purchase.
+- As a shopper I want to be able to easily see what I’ve searched for and the number of results so that I can quickly decide whether the product I want is available.
+- As a shopper I want to be able to easily select the size and quantity of a product when purchasing it so that I can ensure I don’t accidentially select the wrong product, quantity or size.
+- As a shopper I want to be able to view items in my shopping cart to be purchased so that I can identify the total cost of my purchase and all items I will receive.
+- As a shopper I want to be able to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
+- As a shopper I want to be able to easily enter my payment information so that I can check out quickly and with no hassle.
+- As a shopper I want to be able to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase.
+- As a shopper I want to be able to view an order confirmation after checkout so that I can verify that I haven’t made any mistakes.
+- As a shopper I want to be able to receive an email confirmation after checking out I want to be able to  so that I can keep the confirmation of what I’ve purchased for my records.
+- As a store owner I want to be able to add a product so that I can add new items to my store.
+- As a store owner I want to be able to edit/update a product so that I can change product prices, descriptions, images, and other product criteria.
+- As a store owner I want to be able to delete a product so that I can remove items that are no longer for sale.
+- As a store owner I want to be able to add/edit/delete a category so that I can change the items available in my store.
+- As a store owner I want to be able to add/edit/delete advertisements so that I can promote different product or campaign.
 
 #### Wireframes
 
 Here are the drawings of the wireframes for the browsers and for smartphones:
 
 **Homepage:**
-![Drawing of the homepage](read-me-images/wireframe5.png)
-![Drawing of the homepage](read-me-images/wireframe6.png)
+![Drawing of the homepage](readme-images/wireframe1.png)
+![Drawing of the homepage](readme-images/wireframe6.png)
 
 **Register:**
-![Drawing of the register page](read-me-images/wireframe3.png)
-![Drawing of the register page](read-me-images/wireframe4.png)
+![Drawing of the register page](readme-images/wireframe3.png)
+![Drawing of the register page](readme-images/wireframe4.png)
 
 **Log In:**
-![Drawing of the log in page](read-me-images/wireframe1.png)
-![Drawing of the log in page](read-me-images/wireframe2.png)
+![Drawing of the log in page](readme-images/wireframe1.png)
+![Drawing of the log in page](readme-images/wireframe2.png)
 
 **Personal user page:**
-![Drawing of the personal user page](read-me-images/wireframe11.png)
-![Drawing of the personal user page](read-me-images/wireframe12.png)
+![Drawing of the personal user page](readme-images/wireframe11.png)
+![Drawing of the personal user page](readme-images/wireframe12.png)
 
 **Add review:**
-![Drawing of the add review page](read-me-images/wireframe9.png)
-![Drawing of the add review page](read-me-images/wireframe10.png)
+![Drawing of the add review page](readme-images/wireframe9.png)
+![Drawing of the add review page](readme-images/wireframe10.png)
 
 **Add comment:**
-![Drawing of the add comment page](read-me-images/wireframe7.png)
-![Drawing of the add comment page](read-me-images/wireframe8.png)
+![Drawing of the add comment page](readme-images/wireframe7.png)
+![Drawing of the add comment page](readme-images/wireframe8.png)
 
 
 #### Flow Chart
