@@ -182,74 +182,11 @@ Here is the outlined ERD:
         - Rating the board game 
 
 
-#### Tasks in product backlog (with (untested) storypoints)
-
-The tasks can be found within the user stories here: <https://github.com/RenaSchott/Project4-BoardGameReview/issues>.
-
-- **Userstory 1 - Preparation:**
-  - Task 1: Setup workspace
-  - Task 2: Create User Stories with acceptance criteria, Storypoints and Tasks
-  - Task 3: Create Wireframes
-  - Task 4: Create Flowchart
-  - Task 5: Create Entity Relatioship Diagram
-  - Task 6: Deploy project (ElephantSQL + Heroku)
-- **Userstory 2 - View newest reviews:** 
-  - Task 1: Create HTML + CSS --- Storypoint/s: 2
-  - Task 2: Create the models --- Storypoint/s: 1
-  - Task 3: Testing --- Storypoint/s: 2
-- **Userstory 3 - Open a review:**
-  - Task 1: Create HTML + CSS --- Storypoint/s: 2
-  - Task 2: Create the models --- Storypoint/s: 1
-  - Task 3: Testing --- Storypoint/s: 2
-- **Userstory 4 - View ratings:**
-  - Task 1: Create HTML + CSS --- Storypoint/s: 2
-  - Task 2: Create the models --- Storypoint/s: 1
-  - Task 3: Testing --- Storypoint/s: 2
-- **Userstory 5 – Search:**
-  - Task 1: Create HTML + CSS --- Storypoint/s: 1
-  - Task 2: Create the models --- Storypoint/s: 1
-  - Task 3: Testing --- Storypoint/s: 2
-- **Userstory 6 - View comments:**
-  - Task 1: Create HTML + CSS --- Storypoint/s: 1
-  - Task 2: Create the models --- Storypoint/s: 1
-  - Task 3: Testing --- Storypoint/s: 2
-- **Userstory 7 - Comment on a review:**
-  - Task 1: Design User Interface --- Storypoint/s: 4
-  - Task 2: Create HTML + CSS --- Storypoint/s: 2
-  - Task 3: Create the models --- Storypoint/s: 1
-  - Task 4: Testing --- Storypoint/s: 2
-- **Userstory 8 - Account registration:**
-  - Task 1: Design User Interface --- Storypoint/s: 8
-  - Task 2: Create HTML + CSS --- Storypoint/s: 4
-  - Task 3: Create the models --- Storypoint/s: 2
-  - Task 4: Testing --- Storypoint/s: 1
-- **Userstory 9 - Create new reviews/ratings:**
-  - Task 1: Design User Interface --- Storypoint/s: 16
-  - Task 2: Create HTML + CSS --- Storypoint/s: 8
-  - Task 3: Create the models --- Storypoint/s: 4
-  - Task 4: Testing --- Storypoint/s: 4
-- **Userstory 10 - Add my own review/ratings:**
-  - Task 1: Design User Interface --- Storypoint/s: 8
-  - Task 2: Create HTML + CSS --- Storypoint/s: 4
-  - Task 3: Create the models --- Storypoint/s: 4
-  - Task 4: Testing --- Storypoint/s: 4
-- **Userstory 11 - Manage reviews:**
-  - Task 1: Design User Interface --- Storypoint/s: 16
-  - Task 2: Create HTML + CSS --- Storypoint/s: 8
-  - Task 3: Create the models --- Storypoint/s: 8
-  - Task 4: Testing --- Storypoint/s: 4
-- **Userstory 12 - Manage comments/reviews:**
-  - Task 1: Design User Interface --- Storypoint/s: 32
-  - Task 2: Create HTML + CSS --- Storypoint/s: 16
-  - Task 3: Create the models --- Storypoint/s: 8
-  - Task 4: Testing --- Storypoint/s: 8
-
-
 ## Features
 
 ### Welcome screen
 
-- The welcome screen is the first thing the user sees from the battleship app. Here the large letters "Welcome to Battleship!" can be seen, as well as the question "Do you want to start the game (y/n)?. The (y/n) indicates the possible input. By typing in y the user can progress with the game. While n will stop the game from running. If the user gives any other input, the user will be asked again to answer the question correct. The y and n answer will be automatically commented.
+- 
 
 ![Screen shot of the welcome screen of the project](assets/readmeimages/welcome-screen.png)
 
