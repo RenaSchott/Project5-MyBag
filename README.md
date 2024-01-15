@@ -53,16 +53,16 @@ As the owner of the website I want to sells different bags for everyone:
 
 ### Application Type
 
-**Who is the customer?:** B2C 
-**What will they buy?:** products: different bags
-**How will they pay?:** one time payment
+- **Who is the customer?:** B2C 
+- **What will they buy?:** products: different bags
+- **How will they pay?:** one time payment
 
 ### Agile planning
 
 The development of this project was done with an agile approach.
 
 Here is an example of the Kanban board from an early development stage:
-![Example of the Kanban board in an early stage]()
+![Example of the Kanban board in an early stage](readme-images/kanban.png)
 
 The project board can be found here: <https://github.com/users/RenaSchott/projects/5>.
 
