@@ -331,26 +331,19 @@ The link to the live page can be found here: [] (<>)
 
 ### Content
 
-The content of this project was inspired by the "Hello Django" and "I Think Therefore I Blog" project and the content of the course. In general, the following websites were used for inspiration:
-  - <https://www.youtube.com/watch?v=sm1mokevMWk>
-  - <https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/>
+The content of this project was inspired by the "Boutique Ado" project and the content of the course. In general, the following websites were used for inspiration:
+  - <https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django>
+  - <https://docs.djangoproject.com/en/4.2/ref/contrib/flatpages/>
   
 
 Inspirations for specific problems were taken from the following websites:
-  - <https://docs.djangoproject.com/en/4.2/topics/db/models/>
-  - <https://www.geeksforgeeks.org/emailfield-django-models/>
-  - <https://www.makeuseof.com/django-dynamic-routing/>
-  - <https://mdbootstrap.com/how-to/bootstrap/footer-at-bottom/>
-  - <https://getbootstrap.com/docs/5.0/utilities/text/>
+  - <https://espere.in/Django-Allauth:-How-to-create-social-login-like-Facebook-Google-Github-and-Twitter-in-django/>
+  - <https://docs.allauth.org/en/latest/installation/quickstart.html>
   
 ### Media
 
 Images were downloaded from <https://pixabay.com/de/>
-- Login image <https://pixabay.com/de/illustrations/schach-hunde-haustier-schach-spiel-7802136/>
-- Carcassonne: <https://pixabay.com/de/illustrations/brettspiel-brett-spiel-spiele-2237460/>
-- Ludo: <https://pixabay.com/de/vectors/brett-spiel-ludo-freizeit-gl%C3%BCck-48117/>
-- Chess: <https://pixabay.com/de/illustrations/schach-strategie-spiel-k%C3%B6nig-brett-1709603/>
-
+- 
 ## Acknowledgements
 
 - I would love to thank the following persons:
