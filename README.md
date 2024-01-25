@@ -339,6 +339,7 @@ The content of this project was inspired by the "Boutique Ado" project and the c
 Inspirations for specific problems were taken from the following websites:
   - <https://espere.in/Django-Allauth:-How-to-create-social-login-like-Facebook-Google-Github-and-Twitter-in-django/>
   - <https://docs.allauth.org/en/latest/installation/quickstart.html>
+  - <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
   
 ### Media
 
