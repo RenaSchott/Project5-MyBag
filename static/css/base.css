@@ -57,7 +57,11 @@ body {
 }
 
 .bg-grey {
-    background-color: rgba(105, 105, 105, 0.5)
+    background-color: rgba(105, 105, 105, 0.5) !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
 }
 
 .border-black {
