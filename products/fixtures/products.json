@@ -1,0 +1,16 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp0000000001",
+        "name": "Leather business bag",
+        "description": "This elegant, leather business bag can be carried with one hand or over the shoulder as needed.",
+        "price": 112.99,
+        "category": 1,
+        "rating": 4.6,
+        "image_url": "",
+        "image": "business_gentlemen.jpg"
+        }
+    },
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+        "name": "business_gentlemen",
+        "friendly_name": "Business bags for gentlemen"
+        }
+    },
+]
