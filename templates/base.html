@@ -42,7 +42,7 @@
     <header class="container-fluid fixed-top">
       <div id="topnav tn" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 py-1 py-lg-0 d-flex justify-content-start">
-            <form method="GET" action="{% url 'products' %}">
+            <form method="GET" action="">
             <div class="input-group w-100">
                 <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search for product">
                 <div class="input-group-append">
@@ -84,7 +84,7 @@
                 </div>
             </li>
             <li class="list-inline-item">
-                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                     <div class="text-center">
                         <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                         <p class="my-0">
