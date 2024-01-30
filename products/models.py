@@ -5,6 +5,9 @@ class Category(models.Model):
     """ 
     Stores a single category
     """
+    class Meta:
+        verbose_name_plural = 'Categories'
+
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254)
 
@@ -19,7 +22,7 @@ class Product(models.Model):
     """ 
     Stores a product entry
     """
-    category = models.ManyToManyField('Category')
+    category = models.ManyToManyField(Category)
     sku = models.CharField(max_length=254)
     name = models.CharField(max_length=254)
     material = models.CharField(max_length=254)
@@ -31,20 +34,6 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class Review(models.Model):
-    """ 
-    Stores a review for a specific product entry
-    """
-    name = models.CharField(max_length=254)
-    product = models.ForeignKey('Product', on_delete=models.CASCADE)
-    created_on = models.DateTimeField(auto_now_add=True)
-    content = models.TextField()
-    author = models.ForeignKey('UserAccount', on_delete=models.RESTRICT, related_name="author")
-
-    def __str__(self):
-        return self.review
 
 
 class UserAccount(models.Model):
@@ -65,6 +54,20 @@ class UserAccount(models.Model):
         return self.user_name
 
 
+class Review(models.Model):
+    """ 
+    Stores a review for a specific product entry
+    """
+    name = models.CharField(max_length=254)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    created_on = models.DateTimeField(auto_now_add=True)
+    content = models.TextField()
+    author = models.ForeignKey(UserAccount, on_delete=models.RESTRICT, related_name="author")
+
+    def __str__(self):
+        return self.review
+
+
 class UserRating(models.Model):
     """ 
     Stores a rating for a specific product entry
@@ -78,7 +81,7 @@ class UserRating(models.Model):
         4: "4",
         5: "5"
     }
-    review = models.ForeignKey('Review', on_delete=models.CASCADE)
+    review = models.ForeignKey(Review, on_delete=models.CASCADE)
     help_text = "Please rate the product from  0 = horrible to 5 = fantastic."
 
     def __str__(self):
