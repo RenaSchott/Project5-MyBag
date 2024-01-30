@@ -51,11 +51,15 @@ class UserAccount(models.Model):
     """ 
     Stores a single user profile
     """
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
     user_name = models.CharField("person's user name", max_length=30)
     first_name = models.CharField("person's first name", max_length=30)
     last_name =  models.CharField("person's last name", max_length=30)
     email = models.EmailField(max_length = 254)
     image = models.ImageField(null=True, blank=True)
+    is_allowed = models.BooleanField(null=True, blank=True, default=False)
+    is_admin = models.BooleanField(null=True, blank=True, default=False)
+    is_superadmin = models.BooleanField(null=True, blank=True, default=False)
 
     def __str__(self):
         return self.user_name
@@ -65,7 +69,7 @@ class UserRating(models.Model):
     """ 
     Stores a rating for a specific product entry
     """
-    author = models.ForeignKey('UserAccount', on_delete=models.RESTRICT)
+    author = models.ForeignKey(UserAccount, on_delete=models.RESTRICT)
     rating = {
         0: "0",
         1: "1",

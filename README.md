@@ -56,6 +56,9 @@ As the owner of the website I want to sells different bags for everyone:
 - **Who is the customer?:** B2C 
 - **What will they buy?:** products: different bags
 - **How will they pay?:** one time payment
+- **Type:** online shop e-commerce
+
+![The Business Model Canvas](readme-images/business-model-p5.png)
 
 ### Agile planning
 
@@ -128,6 +131,10 @@ Here are the drawings of the wireframes for the browsers and for smartphones:
 **Log In:**
 ![Drawing of the log in page](readme-images/wireframe5.png)
 ![Drawing of the log in page](readme-images/wireframe6.png)
+
+**Product Page:**
+![Drawing of the product page](readme-images/wireframe13.png)
+![Drawing of the product page](readme-images/wireframe14.png)
 
 **Shopping Cart:**
 ![Drawing of the shopping cart](readme-images/wireframe7.png)
@@ -340,11 +347,13 @@ Inspirations for specific problems were taken from the following websites:
   - <https://espere.in/Django-Allauth:-How-to-create-social-login-like-Facebook-Google-Github-and-Twitter-in-django/>
   - <https://docs.allauth.org/en/latest/installation/quickstart.html>
   - <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
+  - <https://www.strategyzer.com/library/the-business-model-canvas>
+  - <https://docs.djangoproject.com/en/5.0/topics/auth/customizing/#extending-the-existing-user-model>
   
 ### Media
 
 Images were downloaded from <https://pixabay.com/de/>
-- 
+
 ## Acknowledgements
 
 - I would love to thank the following persons:
