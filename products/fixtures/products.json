@@ -34,7 +34,7 @@
         "model": "products.product",
         "fields": {
         "sku": "pp0000000003",
-        "name": "Bagpack for daily use",
+        "name": "Backpack for daily use",
         "material": "Leatherette",
         "description": "This elegant, leatherette bagpack makes a great addition to your casual look.",
         "price": 99.99,
@@ -86,7 +86,7 @@
         "category": [3, 4, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_gentlemen.jpg"
+        "image": "sport_gentlemen.png"
         }
     },
     {
@@ -101,7 +101,7 @@
         "category": [3, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_gentlemen2.jpg"
+        "image": "sport_gentlemen2.png"
         }
     },
     {
@@ -191,7 +191,7 @@
         "category": [8, 10, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_ladies2.jpg"
+        "image": "sport_ladies2.png"
         }
     },
     {
@@ -221,7 +221,7 @@
         "category": [12, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "school_bag1.jpg"
+        "image": "schoolbag_1.jpg"
         }
     },
     {
@@ -236,7 +236,7 @@
         "category": [12, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "school_bag2.jpg"
+        "image": "schoolbag_2.jpg"
         }
     },
     {
@@ -251,7 +251,7 @@
         "category": [12, 14, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "school_bag3.jpg"
+        "image": "schoolbag_3.jpg"
         }
     },
     {
@@ -266,7 +266,7 @@
         "category": [12, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "school_bag4.jpg"
+        "image": "schoolbag_4.jpg"
         }
     },
     {
@@ -281,7 +281,7 @@
         "category": [13, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_chil.jpg"
+        "image": "sport_chil.png"
         }
     }
 ]
