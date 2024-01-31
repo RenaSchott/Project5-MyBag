@@ -341,6 +341,7 @@ The link to the live page can be found here: [] (<>)
 The content of this project was inspired by the "Boutique Ado" project and the content of the course. In general, the following websites were used for inspiration:
   - <https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django>
   - <https://docs.djangoproject.com/en/4.2/ref/contrib/flatpages/>
+  - <https://www.w3schools.com/>
   
 
 Inspirations for specific problems were taken from the following websites:
