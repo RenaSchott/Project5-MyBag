@@ -10,13 +10,11 @@
                         All Products
                     </a>
                     <ul class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                        <li><a href="" class="dropdown-item">By Material</a></li>
-                        <li><a href="" class="dropdown-item">By Size</a></li>
-                        <li><a href="" class="dropdown-item">By Use for</a></li>
-                        <li><a href="" class="dropdown-item">By Price</a></li>
-                        <li><a href="" class="dropdown-item ">By Rating</a></li>
-                        <li><a href="" class="dropdown-item ">By Category</a></li>
-                        <li><a href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
+                        <li><a href="{% url 'products' %}category=material" class="dropdown-item">By Material</a></li>
+                        <li><a href="{% url 'products' %}category=price" class="dropdown-item">By Price</a></li>
+                        <li><a href="{% url 'products' %}category=rating" class="dropdown-item ">By Rating</a></li>
+                        <li><a href="{% url 'products' %}category=category" class="dropdown-item ">By Category</a></li>
+                        <li><a href="{% url 'products' %}category=category, material, price, rating" class="dropdown-item">All Products</a></li>
                     </ul>
                 </li>
         
