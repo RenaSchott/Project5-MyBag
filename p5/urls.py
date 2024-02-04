@@ -24,4 +24,5 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('mybag.urls')),
     path('products/', include('products.urls')),
+    path('shoppingcart/', include('shoppingcart.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

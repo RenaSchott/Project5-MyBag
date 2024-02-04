@@ -49,8 +49,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.amazon',
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.instagram',
+    # new apps
     'mybag',
     'products',
+    'shoppingcart',
 ]
 
 MIDDLEWARE = [
