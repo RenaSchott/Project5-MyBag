@@ -3,7 +3,7 @@ from django.contrib import messages
 from products.models import Product
 
 
-def view_bag(request):
+def view_shoppingcart(request):
     """ A view that renders the shopping cart """
 
     return render(request, 'shoppingcart/shoppingcart.html')
