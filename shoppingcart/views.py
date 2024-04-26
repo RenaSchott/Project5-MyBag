@@ -1,13 +1,11 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
-from django.contrib import messages
-from products.models import Product
+from django.shortcuts import render, redirect
 
+# Create your views here.
 
 def view_shoppingcart(request):
     """ A view that renders the shopping cart """
 
     return render(request, 'shoppingcart/shoppingcart.html')
-
 
 def add_to_shoppingcart(request, item_id):
     """ Add a quantity of the specified product to the shoppingcart """
@@ -23,4 +21,3 @@ def add_to_shoppingcart(request, item_id):
 
     request.session['shoppingcart'] = shoppingcart
     return redirect(redirect_url)
-    
