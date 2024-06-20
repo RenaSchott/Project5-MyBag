@@ -109,15 +109,13 @@
 
 {% block postloadjs %}
     {{ block.super }}
-    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.js">
-		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
-    
-    <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.js">
+    <script type="text/javascript">
+        $('.btt-link').click(function(e) {
+            window.scrollTo(0,0)
+        })
         $('#sort-selector').change(function() {
             var selector = $(this);
+            console.log(selector);
             var currentUrl = new URL(window.location);
 
             var selectedVal = selector.val();
