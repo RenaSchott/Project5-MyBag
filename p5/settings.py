@@ -174,6 +174,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = [
     "https://*.gitpod.io",
     "https://*.herokuapp.com"
+    "https://*.codeinstitute-ide.net"
 ]
 
 FREE_DELIVERY_THRESHOLD = 50
