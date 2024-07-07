@@ -20,7 +20,13 @@ View the live project here: <>
       - [Method](#method)
         - [POC (prove of concept)](#poc-(prove-of-concept))
         - [MVP (minimum viable product)](#mvp-(minimum-viable-product))
-    - [Features](#features)
+    - [Five planes of UX](#five-planes-of-UX)
+      - [Strategy](#strategy)
+      - [Scope](#scope)
+      - [Structure](#structure)
+      - [Skeleton](#skeleton)
+      - [Surface](#surface)
+  - [Features](#features)
     - [Welcome screen](#welcome-screen)
     - [Username](#username)
     - [Game rules](#game-rules)
@@ -215,6 +221,20 @@ Here is the outlined ERD:
         - images
         - description
         - amount    
+
+
+### Five planes of UX
+
+#### Strategy
+
+#### Scope
+
+#### Structure
+
+#### Skeleton
+
+#### Surface
+
 
 
 ## Features
