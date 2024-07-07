@@ -11,7 +11,7 @@ View the live project here: <>
   - [Table of content](#table-of-content)
   - [UX](#ux)
     - [Website owner goals](#website-owner-goals)
-    - [Application type](#application-type)
+    - [E-commerce application type](#e-commerce-application-type)
     - [Agile planning](#agile-planning)
       - [Milestones](#milestones)
       - [User stories](#user-stories)
@@ -51,12 +51,16 @@ As the owner of the website I want to sells different bags for everyone:
 - Within the first six month I want to have 100 registered repeat buyers and I want to sell 1000 bags.
 - Each month I want to have at least 100 persons visiting my website.
 
-### Application Type
+### E-commerce application Type
 
-- **Who is the customer?:** B2C 
-- **What will they buy?:** products: different bags
-- **How will they pay?:** one time payment
-- **Type:** online shop e-commerce
+- **Who is the customer?:**  
+    - It is a business to customer model (B2C). We have to attract the consumers to choose to make impulsive purchases. Our customers are going to be of all kind of genders and all ages. People who want to buy quality bags anytime or those who want to buy a bargain can find what they are looking for on the website. Therefore the customers can get different kinds of informations on the products on our website. 
+- **What will they buy?:** 
+    - The physical products we are selling are different bags for different occassions and customers.
+- **How will they pay?:** 
+    - The customers can pay via one time payment. They can save their payment methods to make it easier for the next time.
+- **Type:** 
+    - Our application type is a typical online shop (e-commerce).
 
 ![The Business Model Canvas](readme-images/business-model-p5.png)
 
