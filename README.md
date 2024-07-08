@@ -226,15 +226,25 @@ Here is the outlined ERD:
 ### Five planes of UX
 
 #### Strategy
+The users are identified as parents or persons from around 10 to 65 years old which are used to order online and are in need for a new bag. Their needs are different bags on a site with simple and easy selection and payment methods. The need for information are met through the informations on the bags on the product overview and product detail page.
 
 #### Scope
+To achieve the strategy we must bring online an easy to handle website. Therefore we need an visible searchbar as well as the information on free shipping displayed on the homepage. A menu for category filtering for women, men, children, occassions and sales must be included. The wanted products must show the minimum needed information such as price, material, image and rating for the customer to narrow down the wanted product. The product detail page should show everything needed for an purchase which includes the price, material, image, rating and the option to choose the amount wanted. The shopping bag should be easily visible on the pages as well as the option to register or login. In the shopping bag all selected products must be visible with price and the chosen amount as well as the option the change the amount. The total price and the option for check out should be easily visible. An intuitive purchasing process must be included with different payment options and the purchase confirmation. For details the [features](#features) section can be viewed.
 
 #### Structure
+For the interaction design the user is actively requested on the homepage to start their shopping experience which shows them all the available products. Before or after choosing this option the user can use the search for specific materials or bag type or the category filter. The users can view all the details before their purchase.
+For the information architecture the potential customer can see all miminum needed informations in the displayed list of products and more on the detailed products page.
+Auithenticated users can store their information.
 
 #### Skeleton
+Standard layouts are used which the users should be familiar with.
+The thoughts on the look website of the website can be seen in the [wireframes](#wireframes) section.
 
 #### Surface
-
+As most common the navigation, filter, register, login and search bars are within the top lines of the website. Number of search results are displayed in the left corner of the main section and the search results themself are displayed in rows and column are adapted to the respective screen size and they can be sorted.
+For the font family Roboto is used and for the colorscheme a beige background should smooth the balck and white colorscheme of the upper lines. The font color of the main part of the screen is black or darkred which gives a nice contrast to the white of the product card and the main background color.
+All relevant options and information are alltogether sorted in intuitive groups. 
+The images and icons are mainly used to help navigate and for product details. Therefore only necessary ones are used. 
 
 
 ## Features
