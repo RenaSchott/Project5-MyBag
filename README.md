@@ -237,7 +237,7 @@ For the information architecture, the potential customer can see all minimum nee
 Authenticated users can store their information.
 
 #### Skeleton
-As most common, the navigation, filter, register, login and search bars are within the top lines of the website. Number of search results are displayed in the left corner of the main section and the search results themselves are displayed in rows and column are adapted to the respective screen size, and they can be sorted. Which means in general, that standard layouts are used, which the users should be familiar with. The thoughts on the look website of the website can be seen in the [wireframes](#wireframes) section.
+As most common, the navigation, filter, register, login and search bars are within the top lines of the website. Number of search results are displayed in the left corner of the main section and the search results themselves are displayed in rows and column are adapted to the respective screen size, and they can be sorted. Which means in general, that standard layouts are used, which the users should be familiar with. The thoughts on the look of the website can be seen in the [wireframes](#wireframes) section.
 
 #### Surface
 For the font family Roboto is used and for the color scheme a beige background should smooth the black and white color scheme of the upper lines. The font color of the main part of the screen is black or dark red which gives a nice contrast to the white of the product card and the main background color.
