@@ -226,7 +226,7 @@ Here is the outlined ERD:
 ### Five planes of UX
 
 #### Strategy
-The users are identified as parents or persons from around 10 to 65 years old which are used to order online and are in need for a new bag. Their needs are different bags on a site with simple and easy selection and payment methods and information on the bags.
+The users are identified as parents or persons from around 10 to 65 years old which are used to order online and are in need for a new bag. Their needs are different bags on a site with simple and easy selection, payment methods, authentication system and information on the bags.
 
 #### Scope
 To achieve the strategy, we must bring online an easy to handle website. Therefore, we need a visible search bar as well as the information on free shipping displayed on the homepage. A menu for category filtering for women, men, children, occasions and sales must be included. The wanted products must show the minimum needed information such as price, material, image and rating for the customer to narrow down the wanted product. The product detail page should show everything needed for a purchase which includes the price, material, image, rating and the option to choose the amount wanted. The shopping bag, should be easily visible on the pages, as well as the option to register or login. In the shopping bag, all selected products must be visible with price and the chosen amount as well as the option to change the amount. The total price and the option for check out should be easily visible. An intuitive purchasing process must be included with different payment options and the purchase confirmation. For details, the [features](#features) section can be viewed.
