@@ -33,6 +33,8 @@ View the live project here: <>
     - [Game board](#game-board)
     - [User moves](#user-moves)
     - [Features left to implement](#features-left-to-implement)
+  - [SEO](#seo)
+    - [Search results for keywords](#search-results-for-keywords)
   - [Used Technologies](#used-technologies)
     - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
@@ -269,6 +271,45 @@ There is the possibility to integrate:
         - Add
         - Delete
         - Edit
+
+
+## SEO
+
+The Search Engine Optimization is a process to improve the visibility of the website during a fitting search on a search engine like Google. Improving the visibility helps to attrackt more potential customers.
+
+### Search results for keywords
+| Keywords                                    | Search results (approximately) |
+| ------------------------------------------- | ------------------------------ |
+| bag                                         | 6.690.000.000                  |
+| bag for daily use                           | 2.370.000.000                  |
+| bag for daily use for men                   | 1.150.000.000                  |
+| bag for daily use for women                 | 2.080.000.000                  |
+| bag for daily use for children              | 2.030.000.000                  |
+| everyday bag                                | 864.000.000                    |
+| business bag                                | 12.340.000.000                 |
+| leather business bag                        | 189.000.000                    |
+| event bag                                   | 2.080.000.000                  |
+| sport bag                                   | 2.080.000.000                  |
+| durable sport bag                           | 70.700.000                     |
+| gym bag                                     | 434.000.000                    |
+| school bag                                  | 1.540.000.000                  |
+| bag as stylish gift                         | 210.000.000                    |
+| bag as usefull gift                         | 173.000.000                    |
+| bagpack                                     | 10.300.000                     |
+| bagpack for women                           | 3.670.000.000                  |
+| bagpack for men                             | 4.360.000.000                  |
+| bagpack for children                        | 281.000.000                    |
+| bagpack for daily use                       | 393.000.000                    |
+| bagpack for daily use for men               | 143.000.000                    |
+| bagpack for daily use for women             | 390.000.000                    |
+| bagpack for daily use for children          | 264.000.000                    |
+| everyday backpack                           | 69.500.000                     |
+| backpack as stylish gift                    | 51.900.000                     |
+| sport backpack                              | 131.000.000                    |
+| backpack for school                         | 1.390.000.000                  |
+| backpack for school girl                    | 115.000.000                    |
+| backpack for school boy                     | 77.100.000                     |
+| backpack as useful gift for school students | 517.000.000                    |
 
 ## Used Technologies
 
