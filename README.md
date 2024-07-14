@@ -311,6 +311,16 @@ The Search Engine Optimization is a process to improve the visibility of the web
 | backpack for school boy                     | 77.100.000                     |
 | backpack as useful gift for school students | 517.000.000                    |
 
+### Long-tail keyword testing
+
+For the long-tail keyword testing the website Wordtracker was used. Examplary results are shown below. The competition and volume was not determined or low. That is why the keywords used as meta tags were chosen based on the results of the [Search results for keywords](#search-results-for-keywords).
+
+![SEO1](assets/readme-images/SEO1.png)
+
+![SEO2](assets/readme-images/SEO2.png)
+
+![SEO3](assets/readme-images/SEO3.png)
+
 ## Used Technologies
 
 ### Languages Used
@@ -343,6 +353,8 @@ The Search Engine Optimization is a process to improve the visibility of the web
         - was used for storing the database    
     - CI Python Linter
         - was used for finding errors
+    - Wordtracker
+        - was used for long-tail keyword testing
     - Languagetool
         - was used to check the spelling and grammar in the README file.
 
