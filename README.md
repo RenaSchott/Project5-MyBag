@@ -315,11 +315,11 @@ The Search Engine Optimization is a process to improve the visibility of the web
 
 For the long-tail keyword testing the website Wordtracker was used. Examplary results are shown below. The competition and volume was not determined or low. That is why the keywords used as meta tags were chosen based on the results of the [Search results for keywords](#search-results-for-keywords).
 
-![SEO1](assets/readme-images/SEO1.png)
+![seo1](assets/readme-images/seo1.png)
 
-![SEO2](assets/readme-images/SEO2.png)
+![seo2](assets/readme-images/seo2.png)
 
-![SEO3](assets/readme-images/SEO3.png)
+![seo3](assets/readme-images/seo3.png)
 
 ## Used Technologies
 
