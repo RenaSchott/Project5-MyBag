@@ -35,6 +35,7 @@ View the live project here: <>
     - [Features left to implement](#features-left-to-implement)
   - [SEO](#seo)
     - [Search results for keywords](#search-results-for-keywords)
+    - [Long-tail keyword testing](#long-tail-keyword-testing)
   - [Used Technologies](#used-technologies)
     - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
@@ -253,7 +254,7 @@ The images and icons are mainly used to help navigation and for product details.
 
 - 
 
-![Screen shot of the welcome screen of the project](assets/readmeimages/welcome-screen.png)
+![Screen shot of the welcome screen of the project](readme-images/welcome-screen.png)
 
 
 ### User moves
@@ -315,11 +316,11 @@ The Search Engine Optimization is a process to improve the visibility of the web
 
 For the long-tail keyword testing the website Wordtracker was used. Examplary results are shown below. The competition and volume was not determined or low. That is why the keywords used as meta tags were chosen based on the results of the [Search results for keywords](#search-results-for-keywords).
 
-![seo1](assets/readme-images/seo1.png)
+![seo1](readme-images/seo1.png)
 
-![seo2](assets/readme-images/seo2.png)
+![seo2](readme-images/seo2.png)
 
-![seo3](assets/readme-images/seo3.png)
+![seo3](readme-images/seo3.png)
 
 ## Used Technologies
 
