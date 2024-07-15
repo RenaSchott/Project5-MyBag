@@ -36,6 +36,7 @@ View the live project here: <>
   - [SEO](#seo)
     - [Search results for keywords](#search-results-for-keywords)
     - [Long-tail keyword testing](#long-tail-keyword-testing)
+    - [Search for similar businesses](#search-for-similar-businesses)
   - [Used Technologies](#used-technologies)
     - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
@@ -321,6 +322,11 @@ For the long-tail keyword testing the website Wordtracker was used. Examplary re
 ![seo2](readme-images/seo2.png)
 
 ![seo3](readme-images/seo3.png)
+
+### Search for similar businesses
+
+For comparison, different pages with different layouts were viewed. 
+For example: zalando.de, bonprix.de, rucksack.de, taschenkaufhaus.de
 
 ## Used Technologies
 
