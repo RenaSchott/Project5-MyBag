@@ -44,6 +44,7 @@
     <title>My Bag {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
+    <!-- Header section -->
     <header class="container-fluid fixed-top">
       <div id="topnav tn" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 py-1 py-lg-0 d-flex justify-content-start">
@@ -128,8 +129,34 @@
     {% block page_header %}
     {% endblock %} 
 
+    <!-- Main section -->
     {% block content %}
     {% endblock %} 
+
+    <!-- Footer section -->
+    <footer class="footer-container">
+      <div class="container">
+        <section class="footer">
+            <div class="row">
+            <div class="col-12 page-header mb-4">
+                <h4 class="text-uppercase text-center">Stay in touch:</h4>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+            <h5>Social</h5>
+            <p>Keep up to date with all our latest offers and follow us: <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferre"><i class="fab fa-facebook-square"></i></a></p>
+            </div>
+            <div class="col-12 col-md-6">
+            <h4>Newsletter subscription!</h4>
+            <p>Get exclusive offers and discount codes</p>
+            <!-- Mailchimp signup form here -->
+            </div>
+        </div>
+        </section>
+      </div>
+    </footer>
 
     {% block postloadjs %}
     {% endblock %} 

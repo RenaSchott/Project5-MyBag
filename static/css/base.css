@@ -8,7 +8,17 @@ body {
     height: calc(100vh - 164px);
     color: #790606;
     font-family: 'Roboto';
-';
+}
+
+.footer-container {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: white;
+    color: #000;
+}
+
+.container-footer {
+    padding: 5px;
 }
 
 /* from Bulma */
