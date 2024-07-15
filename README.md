@@ -37,6 +37,9 @@ View the live project here: <>
     - [Search results for keywords](#search-results-for-keywords)
     - [Long-tail keyword testing](#long-tail-keyword-testing)
     - [Search for similar businesses](#search-for-similar-businesses)
+  - [Marketing strategies](#marketing-strategies)
+    - [Social media marketing](#social-media-marketing)
+    - [Email marketing](#email-marketing)
   - [Used Technologies](#used-technologies)
     - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
@@ -327,6 +330,20 @@ For the long-tail keyword testing the website Wordtracker was used. Examplary re
 
 For comparison, different pages with different layouts were viewed. 
 For example: zalando.de, bonprix.de, rucksack.de, taschenkaufhaus.de
+
+## Marketing strategies
+
+Paid marketing strategies were no options and requirements for this fictional project that is why the main strategies used are social media and email marketing to adress people of different ages and preferences. 
+
+### Social media marketing
+
+You can see below a mock facebook page where the promotion takes place with regular posts about our new collections and sales. This provides a chance for the customers to feel more connected with the business and stay easily informed about new sales or collections without the need to visit the main page regularly.
+
+![facebookpage](readme-images/facebookpage.png)
+
+### Email marketing
+
+In the footer section of the main page a newsletter sign up section is included. Therefore the MailChimp Newsletter subscription service is used. The sign up is easy and completely optional.
 
 ## Used Technologies
 
