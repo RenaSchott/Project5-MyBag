@@ -21,6 +21,10 @@ body {
     padding: 5px;
 }
 
+.a-footer {
+    font-size: 20px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -154,6 +158,25 @@ body {
 
 .mailchimp-logo {
     max-width: 50px;
+}
+
+/* -------------------------------- Error page */
+.error {
+    font-size: xx-large;
+}
+.center {
+    margin: 25%;
+    width: 50%;
+ }
+.container-a {
+    background-color:rgb(202, 74, 51);
+    border: solid, black, 2px;
+    text-align: center;
+}
+a {
+    font-size: 100px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* -------------------------------- Media Queries */
