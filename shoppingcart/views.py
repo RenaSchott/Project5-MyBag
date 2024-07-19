@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, HttpResponse
+from django.shortcuts import render, redirect, reverse
+from django.http import HttpResponse
+from products.models import Product
 
 # Create your views here.
 
@@ -44,7 +46,6 @@ def remove_from_shoppingcart(request, item_id):
     """Remove the specified product in the shoppingcart"""
 
     try:
-        product = get_object_or_404(Product, pk=item_id)
         shoppingcart = request.session.get('shoppingcart', {})
 
         shoppingcart.pop(item_id)
