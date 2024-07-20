@@ -134,6 +134,10 @@ body {
     cursor: pointer;
 }
 
+.fa-arrow-up {
+    font-size: 25px;
+}
+
 /* Mailchimp */
 #mc_embed_signup {
     background: transparent;
