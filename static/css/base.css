@@ -10,6 +10,10 @@ body {
     font-family: 'Roboto';
 }
 
+.navbar {
+    width: 80% !important;
+}
+
 .footer-container {
     margin-top: 10px;
     padding-top: 10px;
@@ -36,6 +40,9 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    margin-top: 20px;
+    font-size: medium;
+    justify-content: center;
 }
 
 .main-logo-link {
@@ -45,7 +52,8 @@ body {
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    max-width: fit-content;
+    margin-top: 0;
 }
 
 .btn-black {

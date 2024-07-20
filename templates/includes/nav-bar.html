@@ -1,0 +1,75 @@
+<div class="container-fluid w-auto mx-auto">
+    <a class="navbar-brand" href="#">MYBAG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'home' %}">Home</a>
+          </li>  
+          <li class="nav-item dropdown">
+              <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="all-products-link" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Products
+              </a>
+              <ul class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                  <li><a href="{% url 'products' %}?sort=material&direction=asc" class="dropdown-item">By Material</a></li>
+                  <li><a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a></li>
+                  <li><a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a></li>
+                  <li><a href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
+              </ul>
+          </li>
+  
+          <li class="nav-item dropdown">
+              <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="gentlemen-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gentlemen
+              </a>
+              <ul class="dropdown-menu border-0" aria-labelledby="gentlemen-link">
+                  <li><a href="{% url 'products' %}?category=business_gentlemen" class="dropdown-item">Business</a></li>
+                  <li><a href="{% url 'products' %}?category=daily_use_gentlemen" class="dropdown-item">Daily Use</a></li>
+                  <li><a href="{% url 'products' %}?category=sport_gentlemen" class="dropdown-item">Sport</a></li>
+                  <li><a href="{% url 'products' %}?category=sale_gentlemen" class="dropdown-item">Sale</a></li>
+                  <li><a href="{% url 'products' %}?category=all_bags_gentlemen" class="dropdown-item">All Bags</a></li>
+              </ul>
+          </li>
+  
+          <li class="nav-item dropdown">
+              <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="ladies-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Ladies
+              </a>
+              <ul class="dropdown-menu border-0" aria-labelledby="ladies-link">
+                  <li><a href="{% url 'products' %}?category=business_ladies" class="dropdown-item">Business</a></li>
+                  <li><a href="{% url 'products' %}?category=daily_use_ladies" class="dropdown-item">Daily Use</a></li>
+                  <li><a href="{% url 'products' %}?category=sport_ladies" class="dropdown-item">Sport</a></li>
+                  <li><a href="{% url 'products' %}?category=event_ladies" class="dropdown-item">For Events</a></li>
+                  <li><a href="{% url 'products' %}?category=sale_ladies" class="dropdown-item">Sale</a></li>
+                  <li><a href="{% url 'products' %}?category=all_bags_ladies" class="dropdown-item">All Bags</a></li>
+              </ul>
+          </li>
+  
+          <li class="nav-item dropdown">
+              <a class="logo-font font-weight-bold nav-link text-black dropdown-toggle" href="#" role="button" id="children-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Children
+              </a>
+              <ul class="dropdown-menu border-0" aria-labelledby="children-link">
+                  <li><a href="{% url 'products' %}?category=school_children" class="dropdown-item">For School</a></li>
+                  <li><a href="{% url 'products' %}?category=sport_children" class="dropdown-item">Sport</a></li>
+                  <li><a href="{% url 'products' %}?category=sale_children" class="dropdown-item">Sale</a></li>
+                  <li><a href="{% url 'products' %}?category=all_bags_children" class="dropdown-item">All Bags</a></li>
+              </ul>
+          </li>
+      </ul>
+      <form class="d-flex" method="GET" action="{% url 'products' %}">
+          <div class="input-group">
+              <input class="form-control border border-black rounded-0" type="search" name="q" placeholder="Search">
+              <div class="input-group-append">
+                  <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                      <span class="icon">
+                          <i class="fas fa-search"></i>
+                      </span>
+                  </button>
+              </div>
+          </div>
+      </form>
+    </div>
+  </div>
