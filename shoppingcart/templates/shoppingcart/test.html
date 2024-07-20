@@ -22,8 +22,8 @@
       </div>
 
       <div class="row">
-        {% if shoppingcart_items %}
-          <div class="col">
+        <div class="col">
+          {% if shoppingcart_items %}
             <div class="table-responsive rounded">
               <table class="table table-sm table-borderless">
                 <thead class="text-black">
@@ -53,10 +53,26 @@
                             {% csrf_token %}
                             <div class="form-group">
                                 <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="decrement-qty btn btn-sm btn-black rounded-0" 
+                                            data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                                            <span>
+                                                <i class="fas fa-minus fa-sm"></i>
+                                            </span>
+                                        </button>
+                                    </div>
                                     <input class="form-control form-control-sm qty_input" type="number"
                                         name="quantity" value="{{ item.quantity }}" min="1" max="99"
                                         data-item_id="{{ item.item_id }}"
                                         id="id_qty_{{ item.item_id }}">
+                                    <div class="input-group-append">
+                                        <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                            data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                            <span>
+                                                <i class="fas fa-plus fa-sm"></i>
+                                            </span>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                           </form>
@@ -110,8 +126,8 @@
                 Keep shopping
               </span>
             </a>
-          </div>
-        {% endif %}
+          {% endif %}
+        </div>
       </div>
   </div>
 {% endblock %}
