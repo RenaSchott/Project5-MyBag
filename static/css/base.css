@@ -14,6 +14,10 @@ body {
     width: 80% !important;
 }
 
+.dropdown-item {
+    font-size: 20px !important;
+}
+
 .footer-container {
     margin-top: 10px;
     padding-top: 10px;
@@ -41,7 +45,6 @@ body {
 .logo-font {
     text-transform: uppercase;
     margin-top: 20px;
-    font-size: medium;
     justify-content: center;
 }
 
@@ -138,7 +141,24 @@ body {
     font-size: 25px;
 }
 
-/* Mailchimp */
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* -------------------------------- Mailchimp */
 #mc_embed_signup {
     background: transparent;
     clear: left;
@@ -175,23 +195,7 @@ body {
 }
 
 /* -------------------------------- Error page */
-.error {
-    font-size: xx-large;
-}
-.center {
-    margin: 25%;
-    width: 50%;
- }
-.container-a {
-    background-color:rgb(202, 74, 51);
-    border: solid, black, 2px;
-    text-align: center;
-}
-a {
-    font-size: 100px;
-    text-decoration: none;
-    font-weight: bold;
-}
+
 
 /* -------------------------------- Media Queries */
 
