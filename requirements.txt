@@ -3,7 +3,7 @@ crispy-bootstrap5==2024.2
 dj-database-url==2.1.0
 Django==4.2.9
 django-allauth==0.60.1
-django-crispy-forms==2.3
+django-crispy-forms==1.14.0
 django-jquery==3.1.0
 gunicorn==22.0.0
 oauthlib==3.2.2
