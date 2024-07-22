@@ -32,6 +32,8 @@ def cache_checkout_data(request):
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
+    print("HIER KOMMT DER SECRET KEY:")
+    print(stripe_secret_key)
 
     if request.method == 'POST':
         shoppingcart = request.session.get('shoppingcart', {})
@@ -85,6 +87,8 @@ def checkout(request):
         current_shoppingcart = shoppingcart_contents(request)
         total = current_shoppingcart['grand_total']
         stripe_total = round(total * 100)
+
+        
         stripe.api_key = stripe_secret_key
         intent = stripe.PaymentIntent.create(
             amount=stripe_total,
