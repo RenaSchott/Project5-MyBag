@@ -12,6 +12,7 @@ def view_shoppingcart(request):
 
 
 def add_to_shoppingcart(request, item_id):
+
     """ Add a quantity of the specified product to the shoppingcart """
 
     product = get_object_or_404(Product, pk=item_id)
@@ -32,7 +33,6 @@ def add_to_shoppingcart(request, item_id):
 
 def adjust_shoppingcart(request, item_id):
     """Adjust the quantity of the specified product in the shoppingcart"""
-
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     shoppingcart = request.session.get('shoppingcart', {})
