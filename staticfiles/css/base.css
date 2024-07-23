@@ -1,0 +1,240 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/homepage_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #790606;
+    font-family: 'Roboto';
+}
+
+.navbar {
+    width: 80% !important;
+}
+
+.dropdown-item {
+    font-size: 20px !important;
+}
+
+.footer-container {
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: white;
+    color: #000;
+}
+
+.container-footer {
+    padding: 5px;
+}
+
+.a-footer {
+    font-size: 20px;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.shop-now-button {
+    background: black;
+    color: white;
+    max-width: fit-content;
+    margin-top: 0;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.bg-grey {
+    background-color: rgba(105, 105, 105, 0.5) !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: beige;
+	z-index: -1;
+}
+
+.img-size {
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-height {
+    height: 70vh;
+    width: auto;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
+.fa-arrow-up {
+    font-size: 25px;
+}
+
+
+.shoppingcart-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* ------------------------------- bootstrap toasts */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* -------------------------------- Mailchimp */
+#mc_embed_signup {
+    background: transparent;
+    clear: left;
+    font: .6rem Helvetica, Arial, sans-serif;
+    max-width: 500px;
+}
+
+#mc_embed_signup h2 {
+    font-size: .8rem;
+    margin: .2em;
+}
+
+#mc_embed_signup form {
+    margin: .5em .5em 0 0;
+}
+
+#mc_embed_signup .button {
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: .6rem;
+    line-height: 1;
+    padding: .2em .7em;
+}
+
+#mc_embed_signup .button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.mailchimp-logo {
+    max-width: 100px;
+}
+
+/* -------------------------------- Error page */
+
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
