@@ -24,6 +24,9 @@
             <div>
                 <strong>{% trans "Menu:" %}</strong>
                 <ul>
+                    <li>
+                        <a href="{% url 'home' %}">Home</a>
+                    </li>
                     {% if user.is_authenticated %}
                         <li>
                             <a href="{% url 'account_email' %}">{% trans "Change Email" %}</a>
