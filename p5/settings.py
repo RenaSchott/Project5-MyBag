@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     'profiles',
     # other
     'crispy_forms',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -78,7 +79,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'p5.urls'
 
-CRISPY_TEMPLATE_PACK = 'uni_form'
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 TEMPLATES = [
     {
