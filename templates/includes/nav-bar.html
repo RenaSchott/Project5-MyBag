@@ -24,7 +24,6 @@
                   <li><a href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
               </ul>
           </li>
-  
           <li class="nav-item dropdown">
               <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="gentlemen-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Gentlemen
@@ -74,42 +73,45 @@
               </div>
           </div>
       </form>
-      <div class="col-12 col-lg-3 py-1 py-lg-0 d-flex justify-content-end dropdown">
-        <a class="btn dropdown-toggle nav-link text-dark" href="#" role="button" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user fa-lg"></i>
-            <span class="my-0" >My Account</span>
-        </a>
-        <ul class="list-inline list-unstyled text-lg-right my-0">
-            <li class="list-inline-item dropdown">
-                <div class="dropdown-menu border-0" aria-labelledby="user-options" id>
-                    {% if request.user.is_authenticated %}
-                        {% if request.user.is_superuser %}
-                            <a href="" class="dropdown-item">Product Management</a>
-                            <a href="" class="dropdown-item">Category Management</a>
-                        {% endif %}
-                        <a href="" class="dropdown-item">My Profile</a>
-                        <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                    {% else %}
-                        <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                        <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                    {% endif %}
-                </div>
-            </li>
-            <li class="list-inline-item">
-                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_shoppingcart' %}">
-                    <div class="text-center">
-                        <i class="fas fa-shopping-bag fa-lg"></i>
-                        <span class="my-0">
-                            {% if grand_total %}
-                                €{{ grand_total|floatformat:2 }}
-                            {% else %}
-                                €0.00
+      <div class="col-12 col-lg-3 py-2 py-lg-0 d-flex justify-content-end dropdown ms-3">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="btn dropdown-toggle nav-link text-dark" href="#" role="button" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user fa-lg"></i>
+                <span class="my-0" >My Account</span>
+            </a>
+            <ul class="dropdown-menu border-0" aria-labelledby="user-options">
+                <li class="list-inline-item dropdown">
+                        {% if request.user.is_authenticated %}
+                            {% if request.user.is_superuser %}
+                                <a href="" class="dropdown-item">Product Management</a>
+                                <a href="" class="dropdown-item">Category Management</a>
                             {% endif %}
-                        </span>
-                    </div>
-                </a>
-            </li>
+                            <a href="" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        {% else %}
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                        {% endif %}
+                </li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_shoppingcart' %}">
+                        <div class="text-center">
+                            <i class="fas fa-shopping-bag fa-lg"></i>
+                            <span class="my-0">
+                                {% if grand_total %}
+                                    €{{ grand_total|floatformat:2 }}
+                                {% else %}
+                                    €0.00
+                                {% endif %}
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </ul>
+        
       </div>
     </div>
   </div>
