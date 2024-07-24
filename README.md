@@ -451,6 +451,7 @@ The content of this project was inspired by the "Boutique Ado" project and the c
   - <https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django>
   - <https://docs.djangoproject.com/en/4.2/ref/contrib/flatpages/>
   - <https://www.w3schools.com/>
+  - <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
   
 
 Inspirations for specific problems were taken from the following websites:
@@ -459,6 +460,7 @@ Inspirations for specific problems were taken from the following websites:
   - <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
   - <https://www.strategyzer.com/library/the-business-model-canvas>
   - <https://docs.djangoproject.com/en/5.0/topics/auth/customizing/#extending-the-existing-user-model>
+  - <https://stackoverflow.com/questions/16285939/aligning-li-next-to-each-other-not-working>
   
 ### Media
 
