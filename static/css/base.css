@@ -33,7 +33,7 @@ body {
     font-size: 20px;
 }
 
-/* from Bulma */
+/* ------------------------------- from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -66,7 +66,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -165,7 +165,7 @@ body {
     height: 2px;
 }
 
-/* -------------------------------- Mailchimp */
+/* ------------------------------- Mailchimp */
 #mc_embed_signup {
     background: transparent;
     clear: left;
@@ -201,10 +201,10 @@ body {
     max-width: 100px;
 }
 
-/* -------------------------------- Error page */
+/* ------------------------------- Error page */
 
 
-/* -------------------------------- Media Queries */
+/* ------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {

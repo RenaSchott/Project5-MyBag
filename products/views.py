@@ -71,7 +71,10 @@ def product_detail(request, product_id):
 
 @login_required
 def add_product(request):
-    """ Add a product to the store """
+    """
+    Add a product to the store with double security with either 
+    redirection to login page or to home page with error message
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -97,7 +100,10 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """ Edit a product in the store """
+    """
+    Edit a product in the store with double security with either 
+    redirection to login page or to home page with error message
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -126,7 +132,10 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
-    """ Delete a product from the store """
+    """
+    Delete a product from the store with double security with either 
+    redirection to login page or to home page with error message
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
