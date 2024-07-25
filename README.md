@@ -428,6 +428,25 @@ In the footer section of the main page a newsletter sign up section is included.
 
 ## Deployment
 
+For deployment:
+- create a new database <https://dbs.ci-dbs.net/>
+- A Heroku account must be created.
+- Set your GitHub repository to public.
+- Create a new app in Heroku with the following settings:
+    - Add the DATABASE_URL to config vars in settings
+- Within the project:
+    - Connect to database
+    - Create database tables
+    - Add shop fixtures
+    - Create a superuser
+
+    Create an app on Heroku, as we have done for previous projects.
+
+    Create a database. For this we’ll use PostgreSQL from Code Institute, as the Heroku add-ons are not available on the Student Pack.
+
+    Set up hosting for our static and media files with AWS (Amazon Web Services). Specifically, we will use S3 (“Simple Storage Service”) for this.
+
+
 The deployment was done after the tutorial in the course content using <https://www.heroku.com/>.
 
 For deployment:
