@@ -32,5 +32,5 @@ urlpatterns = [
     path('forum/', include('forum.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = 'mybag.views.handler404'
-handler500 = 'mybag.views.handler500'
+handler404 = 'p5.views.handler404'
+handler500 = 'p5.views.handler500'
