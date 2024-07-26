@@ -3,4 +3,4 @@ Disallow: /accounts/
 Disallow: /shoppingcart/
 Disallow: /checkout/
 Disallow: /profiles/
-Sitemap: https://mybag-731453a72029.herokuapp.com/sitemaps.xml
+Sitemap: https://mybag-731453a72029.herokuapp.com/sitemap.xml
