@@ -22,6 +22,20 @@
         <div class="product-container col-10 offset-1">
             <div class="row mt-1 mb-2">
                 <h1>Forum</h1>
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Choose category</a>
+                </p>
+                <div class="row">
+                    <div class="col">
+                      <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            <a href="{% url 'forum' %}?forumcat=new_releases">New releases</a>
+                            <a href="{% url 'forum' %}?forumcat=new_on_sale">New on sale</a>
+                            <a href="{% url 'forum' %}?forumcat=general_news">General news</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
