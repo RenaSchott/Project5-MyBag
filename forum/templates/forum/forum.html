@@ -28,9 +28,9 @@
                     <div class="col">
                       <div class="collapse multi-collapse" id="multiCollapseExample1">
                         <div class="card card-body">
-                            <a href="{% url 'forum' %}?forumcat=new_releases">New releases</a>
-                            <a href="{% url 'forum' %}?forumcat=new_on_sale">New on sale</a>
-                            <a href="{% url 'forum' %}?forumcat=general_news">General news</a>
+                            <a href="{% url 'forum' %}?forumpostcategory=new_releases">New releases</a>
+                            <a href="{% url 'forum' %}?forumpostcategory=new_on_sale">New on sale</a>
+                            <a href="{% url 'forum' %}?forumpostcategory=general_news">General news</a>
                         </div>
                       </div>
                     </div>
@@ -38,18 +38,21 @@
                 <div>
                   {% for post in posts %}
                     <div class="forum-post">
-                    hi
-                      <h3 class="forumpost-heading"><strong>{{ forumpost.slug }}</strong></h3>   
+                      <h3 class="forumpost-heading"><strong>{{ post.slug }}</strong></h3>   
                             <hr>
                             <div class="row">
                                 <div class="col-12 col-sm-8">
-                                    {% if forumpost.short %}
-                                        <p class="short">{{ forumpost.short }}</p>
+                                    {% if post.short %}
+                                        <p class="short">{{ post.short }}</p>
                                     {% endif %} 
                                 </div>
                                 <div class="col-12 col-sm-4">
-                                    {% if forumpost.image %}
-                                        <img class="forumpost-image" src="{{ forumpost.image.url }}" alt="{{ forumpost.get_img_alt_value }}">
+                                    {% if post.image %}
+                                        {% if post.image.url %}
+                                            <img class="forumpost-image" src="{{ post.image.url }}" alt="{{ post.get_img_alt_value }}">
+                                        {% else %}
+                                            <img class="forumpost-image" src="{{ post.image }}" alt="{{ post.get_img_alt_value }}">
+                                        {% endif %}
                                     {% else %}
                                         <img class="forumpost-image w-50" src="{{ MEDIA_URL }}noimage.png" alt="noimage">
                                     {% endif %}
