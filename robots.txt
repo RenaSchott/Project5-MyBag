@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /accounts/
 Disallow: /shoppingcart/
-Sitemap: 
+Disallow: /checkout/
+Disallow: /profiles/
+Sitemap: https://mybag-731453a72029.herokuapp.com/sitemaps.xml
