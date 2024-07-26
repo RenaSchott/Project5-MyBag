@@ -1,0 +1,56 @@
+[
+    {
+        "pk": 1,
+        "model": "forum.forumpost",
+        "fields": {
+            "title": "this-month-addition-to-our-offer-in-store",
+            "slug": "This month addition to our offer in store",
+            "author": 1,
+            "created_on": "2024-07-26",
+            "content": "This new and fantastic bag just arrived in our warehouse for our producer. The bag is comfortable to wear and it is farbecht.", 
+            "entry_cat": 1,
+            "short": "This new and fantastic bag just arrived in our warehouse for our producer.",
+            "image_url": "",
+            "image": "sport_chil.png",
+            "status": 1,
+            "updated_on": "2024-07-26",
+            "approved": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "forum.forumpost",
+        "fields": {
+            "title": "new-sale",
+            "slug": "New sale",
+            "author": 1,
+            "created_on": "2024-07-26",
+            "content": "This comfortable, leather bag is in sale now. Just take your chance to get one of this fantastic bags", 
+            "entry_cat": 2,
+            "short": "This comfortable, leather bag is in sale now.",
+            "image_url": "",
+            "image": "dailyuse_gentlemen.jpg",
+            "status": 1,
+            "updated_on": "2024-07-26",
+            "approved": 1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "forum.forumpost",
+        "fields": {
+            "title": "local-store",
+            "slug": "Local store",
+            "author": 1,
+            "created_on": "2024-07-26",
+            "content": "Since many of you asked us whether they can see more of our products during a local pickup, we plan on opening a store next to our warehouse.", 
+            "entry_cat": 3,
+            "short": "We are planning on opening a local store.",
+            "image_url": "",
+            "image": "homepage_image.jpg",
+            "status": 1,
+            "updated_on": "2024-07-26",
+            "approved": 1
+        }
+    }
+]

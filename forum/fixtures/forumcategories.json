@@ -1,0 +1,26 @@
+[
+    {
+        "pk": 1,
+        "model": "forum.ForumPostCategory",
+        "fields": {
+        "entry_cat": "new_releases",
+        "friendly_name": "New releases"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "forum.ForumPostCategory",
+        "fields": {
+        "entry_cat": "new_on_sale",
+        "friendly_name": "New on sale"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "forum.ForumPostCategory",
+        "fields": {
+        "entry_cat": "general_news",
+        "friendly_name": "General news"
+        }
+    }
+]

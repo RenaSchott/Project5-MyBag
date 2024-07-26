@@ -14,15 +14,14 @@
   <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
-            <h2 class="logo-font">Products</h2>
+            <h2 class="logo-font">Forum</h2>
             <hr class="w-50 m-auto mb-1">
         </div>
     </div>
     <div class="row">
-        <div class="product-container col-10 offset-1">
+        <div class="product-container col-8 offset-1">
             <div class="row mt-1 mb-2">
-                <h1>Forum</h1>
-                <p>
+                <p class="text-end">
                     <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Choose category</a>
                 </p>
                 <div class="row">
@@ -35,6 +34,30 @@
                         </div>
                       </div>
                     </div>
+                </div>
+                <div>
+                  {% for post in posts %}
+                    <div class="forum-post">
+                    hi
+                      <h3 class="forumpost-heading"><strong>{{ forumpost.slug }}</strong></h3>   
+                            <hr>
+                            <div class="row">
+                                <div class="col-12 col-sm-8">
+                                    {% if forumpost.short %}
+                                        <p class="short">{{ forumpost.short }}</p>
+                                    {% endif %} 
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    {% if forumpost.image %}
+                                        <img class="forumpost-image" src="{{ forumpost.image.url }}" alt="{{ forumpost.get_img_alt_value }}">
+                                    {% else %}
+                                        <img class="forumpost-image w-50" src="{{ MEDIA_URL }}noimage.png" alt="noimage">
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <p class="post-date text-muted">{{ forumpost.created_on }}</p>
+                    </div>
+                {% endfor %}
                 </div>
             </div>
         </div>
