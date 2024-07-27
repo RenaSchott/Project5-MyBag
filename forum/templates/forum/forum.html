@@ -11,7 +11,7 @@
 
 {% block content %}
   <div class="overlay"></div>
-  <div class="container-fluid">
+  <div class="container-fluid text-black">
     <div class="row">
         <div class="col text-center mt-3">
             <h2 class="logo-font">Forum</h2>
@@ -19,12 +19,12 @@
         </div>
     </div>
     <div class="row">
-        <div class="product-container col-8 offset-1">
+        <div class="product-container col-8 offset-2">
             <div class="row mt-1 mb-2">
                 <p class="text-end">
                     <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Choose category</a>
                 </p>
-                <div class="row">
+                <div class="row w-75">
                     <div class="col">
                       <div class="collapse multi-collapse" id="multiCollapseExample1">
                         <div class="card card-body">
@@ -35,35 +35,35 @@
                       </div>
                     </div>
                 </div>
-                <div>
+                <div class="p-0">
                   {% for post in posts %}
-                    <div class="forum-post">
-                      <h3 class="forumpost-heading"><strong>{{ post.slug }}</strong></h3>   
-                            <hr>
-                            <div class="row">
-                                <div class="col-12 col-sm-8">
-                                    {% if post.short %}
-                                        <p class="short">{{ post.short }}</p>
-                                    {% endif %} 
-                                </div>
-                                <div class="col-12 col-sm-4">
-                                    {% if post.image %}
-                                        {% if post.image.url %}
-                                            <img class="forumpost-image" src="{{ post.image.url }}" alt="{{ post.get_img_alt_value }}">
-                                        {% else %}
-                                            <img class="forumpost-image" src="{{ post.image }}" alt="{{ post.get_img_alt_value }}">
-                                        {% endif %}
-                                    {% else %}
-                                        <img class="forumpost-image w-50" src="{{ MEDIA_URL }}noimage.png" alt="noimage">
-                                    {% endif %}
-                                </div>
+                    <div class="forum-post rounded-3 my-2 pb-0 pt-3">
+                        <h3 class="forumpost-heading text-center"><strong>{{ post.slug }}</strong></h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-8">
+                                {% if post.short %}
+                                    <p class="short fs-4">{{ post.short }}</p>
+                                {% endif %} 
                             </div>
-                            <p class="post-date text-muted">{{ forumpost.created_on }}</p>
+                            <div class="col-12 col-md-6 col-lg-4 text-end">
+                                {% if post.image %}
+                                    {% if post.image.url %}
+                                        <img class="forumpost-image" src="{{ post.image.url }}" alt="{{ post.get_img_alt_value }}">
+                                    {% else %}
+                                        <img class="forumpost-image" src="{{ post.image }}" alt="{{ post.get_img_alt_value }}">
+                                    {% endif %}
+                                {% else %}
+                                    <img class="forumpost-image w-50" src="{{ MEDIA_URL }}noimage.png" alt="noimage">
+                                {% endif %}
+                            </div>
+                            <p class="text-muted">{{ post.created_on }}</p>
+                        </div>                        
                     </div>
-                {% endfor %}
+                  {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-  </div>  
+  </div> 
 {% endblock %}

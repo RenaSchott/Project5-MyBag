@@ -148,6 +148,18 @@ body {
     overflow-y: auto;
 }
 
+/*  ------------------------------- Forum */
+
+.forum-post {
+    background-color: rgb(177, 177, 142);
+    padding: 20px;
+}
+
+.forumpost-image {
+    height: auto;
+    max-width: 100%;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
