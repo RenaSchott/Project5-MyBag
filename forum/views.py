@@ -10,10 +10,11 @@ def forum(request):
     posts = ForumPost.objects.all()
     forumpostcategorys = None 
 
+
     if 'forumpostcategory' in request.GET:
-        forumpostcategorys = request.GET['forumpostcategory']
-        posts = posts.filter(forumpostcategory__entry_cat__in=forumpostcategorys)
-        forumpostcategorys = ForumPostCategory.objects.filter(entry_cat__in=forumpostcategorys)
+        category = ForumPostCategory.objects.get(entry_cat=request.GET['forumpostcategory'])
+        posts = posts.filter(entry_cat__exact=category.pk)
+        forumpostcategorys = ForumPostCategory.objects.filter(entry_cat__in=request.GET['forumpostcategory'])
 
     context ={
         "posts": posts,
