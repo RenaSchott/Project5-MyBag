@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-    width: 80% !important;
+    width: 100% !important;
 }
 
 .dropdown-item {
@@ -19,7 +19,11 @@ body {
 }
 
 .footer-container {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
     padding-top: 10px;
     background-color: white;
     color: #000;
@@ -33,7 +37,7 @@ body {
     font-size: 20px;
 }
 
-/* from Bulma */
+/* ------------------------------- from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -66,7 +70,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -148,11 +152,23 @@ body {
     overflow-y: auto;
 }
 
+/*  ------------------------------- Forum */
+
+.forum-post {
+    background-color: rgb(177, 177, 142);
+    padding: 20px;
+}
+
+.forumpost-image {
+    height: auto;
+    max-width: 60%;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
     position: fixed;
-    top: 72px;
+    top: 125px;
     right: 15px;
     z-index: 99;
 }
@@ -165,7 +181,7 @@ body {
     height: 2px;
 }
 
-/* -------------------------------- Mailchimp */
+/* ------------------------------- Mailchimp */
 #mc_embed_signup {
     background: transparent;
     clear: left;
@@ -201,10 +217,10 @@ body {
     max-width: 100px;
 }
 
-/* -------------------------------- Error page */
+/* ------------------------------- Error page */
 
 
-/* -------------------------------- Media Queries */
+/* ------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
