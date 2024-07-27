@@ -4,7 +4,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 from .models import ForumPostCategory, ForumPost, ForumComment
-from .forms import PostForm
+from .forms import PostForm, CommentForm
 
 
 def forum(request):
@@ -29,10 +29,28 @@ def forum(request):
 def single_post(request, post_id):
     """ A view to show individual post details """
 
+    queryset = ForumPost.objects.filter(status=1)
     post = get_object_or_404(ForumPost, pk=post_id)
+    comments = post.comments.all().order_by("-created_on")
+    if request.method == "POST":
+        comment_form = CommentForm(data=request.POST)
+        if comment_form.is_valid():
+            comment = comment_form.save(commit=False)
+            comment.writer = request.user
+            comment.comment = post
+            comment.save()
+            messages.add_message(
+                request, messages.SUCCESS,
+                'Comment submitted and awaiting approval'
+            )
+
+    comment_form = CommentForm()
+
 
     context = {
         'post': post,
+        "comments": comments,
+        "comment_form": comment_form
     }
 
     return render(request, 'forum/single_post.html', context)

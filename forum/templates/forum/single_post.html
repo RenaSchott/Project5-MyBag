@@ -50,5 +50,54 @@
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Display Comments -->
+        <div class="row">
+            <div class="col-lg-4 card mb-4 mt-3 offset-lg-2 card">
+                <div class="card-body">
+                    <h3 class=" text-uppercase">Comments:</h3>
+                    {% for comment in comments %}
+                    <div class="p-2 comments {% if not comment.approved and comment.writer == user %}faded{% elif not comment.approved %}d-none{% endif %}">
+                        <small class="text-black-50">
+                            <p>
+                                {{ comment.writer }}
+                                <span>
+                                    {{ comment.created_on }}
+                                </span> wrote:
+                            </p>
+                        </small>
+                        <div id="comment{{ comment.id }}">
+                            {{ comment.content | linebreaks }}
+                        </div>
+                        {% if not comment.approved and comment.writer == user %}
+                            <small class="text-black-50">
+                                <p>
+                                    This comment is awaiting approval
+                                </p>
+                            </small>
+                        {% endif %}
+                        <hr>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- Creating New Comments -->
+            <div class="col-lg-4 card mb-4 mt-3 card">
+                <div class="card-body">
+                    {% if user.is_authenticated %}
+                        <h3 class=" text-uppercase">Leave a comment:</h3>
+                        <small class="text-black-50">
+                            <p>Posting as: {{ user.username }}</p>
+                        </small>
+                        <form id="commentForm" method="post">
+                            {{ comment_form | crispy }}
+                            {% csrf_token %}
+                            <button id="submitButton" type="submit" class="btn btn-outline-white text-white bg-dark rounded-0 mt-2 text-uppercase">Submit</button>
+                        </form>
+                    {% else %}
+                        <p><a class="btn btn-outline-white text-white bg-dark rounded-0 mt-2 text-uppercase" href="{% url 'account_login' %}">Log in</a> to leave a comment</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>   
 {% endblock %}

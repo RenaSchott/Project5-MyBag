@@ -1,5 +1,5 @@
 from django import forms
-from .models import ForumPostCategory, ForumPost
+from .models import ForumPostCategory, ForumPost, ForumComment
 
 
 class PostForm(forms.ModelForm):
@@ -14,3 +14,8 @@ class PostForm(forms.ModelForm):
         friendly_names = [(c.id, c.get_friendly_name()) for c in category]
 
         self.fields['entry_cat'].choices = friendly_names
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = ForumComment
+        fields = ('content',)
