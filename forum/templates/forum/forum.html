@@ -57,6 +57,11 @@
                                     <img class="forumpost-image w-50" src="{{ MEDIA_URL }}noimage.png" alt="noimage">
                                 {% endif %}
                             </div>
+                            <div class="col-12 text-end">
+                                <a href="{% url 'single_post' post.id %}" class="btn btn-outline-black rounded-0 mt-5">
+                                    <span class="text-uppercase">Read more</span>
+                                </a>
+                            </div>
                             <p class="text-muted">{{ post.created_on }}</p>
                         </div>                        
                     </div>

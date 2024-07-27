@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views import generic
 
 from .models import ForumPostCategory, ForumPost, ForumComment
@@ -22,3 +22,16 @@ def forum(request):
     }
 
     return render(request, 'forum/forum.html', context)
+
+
+def single_post(request, post_id):
+    """ A view to show individual product details """
+
+    post = get_object_or_404(ForumPost, pk=post_id)
+
+    context = {
+        'post': post,
+    }
+
+    return render(request, 'forum/single_post.html', context)
+
