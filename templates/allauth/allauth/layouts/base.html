@@ -1,99 +1,15 @@
+{% extends "base.html" %} 
 {% load i18n %}
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            {% block head_title %}
-            {% endblock head_title %}
-        </title>
-        {% block extra_head %}
-        {% endblock extra_head %}
-        <style>
+{% load static %} 
 
-            body {
-                background-color: beige;
-            }
+{% block page_header %}
+  <div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+  </div>
+{% endblock %}
 
-            a {
-                text-decoration: none;
-                font-size: 200%;
-            }
+{% block content %}
+{% endblock %}
 
-            a:link {
-                color: black;
-                }
-
-            a:hover {
-                color: red;
-                }
-
-            .menu {
-                background-color: white;
-                position: fixed;
-                top: 0;
-                width: 100%;
-                left: 0;
-            }
-
-            .base-allauth {
-                display:inline-block;
-                vertical-align: top;
-                list-style-type: none;
-            }
-
-            .space {
-                height: 110px;
-            }
-
-            .allauth-content {
-                margin: auto;
-                width: 50%;
-                border: 3px solid rgb(226, 226, 172);
-                padding: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        {% block body %}
-            {% if messages %}
-                <div>
-                    <strong>{% trans "Messages:" %}</strong>
-                    <ul>
-                        {% for message in messages %}<li>{{ message }}</li>{% endfor %}
-                    </ul>
-                </div>
-            {% endif %}
-            <div class="menu">
-                <ul>
-                    <li class="base-allauth">
-                        <a href="{% url 'home' %}">Home | </a>
-                    </li>
-                    {% if user.is_authenticated %}
-                        <li class="base-allauth">
-                            <a href="{% url 'account_email' %}">{% trans "Change Email" %} | </a>
-                        </li>
-                        <li class="base-allauth">
-                            <a href="{% url 'account_logout' %}">{% trans "Sign Out" %} | </a>
-                        </li>
-                    {% else %}
-                        <li class="base-allauth">
-                            <a href="{% url 'account_login' %}">{% trans "Sign In" %} | </a>
-                        </li>
-                        <li class="base-allauth">
-                            <a href="{% url 'account_signup' %}">{% trans "Sign Up" %}</a>
-                        </li>
-                    {% endif %}
-                </ul>
-            </div>
-            <div class="space"></div>
-            <div class="allauth-content">
-                {% block content %}
-                {% endblock content %}
-            </div>
-        {% endblock body %}
-        {% block extra_body %}
-        {% endblock extra_body %}
-    </body>
-</html>
