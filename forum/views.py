@@ -1,8 +1,10 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 
 from .models import ForumPostCategory, ForumPost, ForumComment
-from .forms import ForumPostCategoryForm
+from .forms import PostForm
 
 
 def forum(request):
@@ -25,7 +27,7 @@ def forum(request):
 
 
 def single_post(request, post_id):
-    """ A view to show individual product details """
+    """ A view to show individual post details """
 
     post = get_object_or_404(ForumPost, pk=post_id)
 
@@ -35,3 +37,79 @@ def single_post(request, post_id):
 
     return render(request, 'forum/single_post.html', context)
 
+
+@login_required
+def add_post(request):
+    """
+    Add a post to the store with double security with either 
+    redirection to login page or to home page with error message
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES)
+        if form.is_valid():
+            post = form.save()
+            messages.success(request, 'Successfully added post!')
+            return redirect(reverse('post_detail', args=[post.id]))
+        else:
+            messages.error(request, 'Failed to add post. Please ensure the form is valid.')
+    else:
+        form = PostForm()
+        
+    template = 'posts/add_post.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def edit_post(request, post_id):
+    """
+    Edit a post in the store with double security with either 
+    redirection to login page or to home page with error message
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    post = get_object_or_404(Post, pk=post_id)
+    if request.method == 'POST':
+        form = PostForm(request.POST, request.FILES, instance=post)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated post!')
+            return redirect(reverse('post_detail', args=[post.id]))
+        else:
+            messages.error(request, 'Failed to update post. Please ensure the form is valid.')
+    else:
+        form = PostForm(instance=post)
+        messages.info(request, f'You are editing {post.name}')
+
+    template = 'posts/edit_post.html'
+    context = {
+        'form': form,
+        'post': post,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def delete_post(request, post_id):
+    """
+    Delete a post from the store with double security with either 
+    redirection to login page or to home page with error message
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    post = get_object_or_404(Post, pk=post_id)
+    post.delete()
+    messages.success(request, 'Post deleted!')
+    return redirect(reverse('posts'))
