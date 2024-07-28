@@ -1,9 +1,8 @@
-from django.shortcuts import render, get_object_or_404
-from django.views import generic
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
-from .models import ForumPostCategory, ForumPost, ForumComment
+from .models import ForumPostCategory, ForumPost
 from .forms import PostForm, CommentForm
 
 
@@ -29,8 +28,6 @@ def forum(request):
 
 def single_post(request, post_id):
     """ A view to show individual post details """
-
-    queryset = ForumPost.objects.filter(status=1)
     post = get_object_or_404(ForumPost, pk=post_id)
     comments = post.comments.all().order_by("-created_on")
     if request.method == "POST":
