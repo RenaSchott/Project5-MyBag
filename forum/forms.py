@@ -15,6 +15,7 @@ class PostForm(forms.ModelForm):
 
         self.fields['entry_cat'].choices = friendly_names
 
+
 class CommentForm(forms.ModelForm):
     class Meta:
         model = ForumComment

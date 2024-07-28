@@ -51,23 +51,23 @@
                     <h3 class=" text-uppercase">Comments:</h3>
                     {% for comment in comments %}
                     <div class="p-2 comments {% if not comment.approved and comment.writer == user %}faded{% elif not comment.approved %}d-none{% endif %}">
-                        <small class="text-black-50">
-                            <p>
+                        <P>
+                            <small class="text-black-50">
                                 {{ comment.writer }}
                                 <span>
                                     {{ comment.created_on }}
                                 </span> wrote:
-                            </p>
-                        </small>
+                            </small>
+                        </P>
                         <div id="comment{{ comment.id }}">
                             {{ comment.content | linebreaks }}
                         </div>
                         {% if not comment.approved and comment.writer == user %}
-                            <small class="text-black-50">
-                                <p>
+                            <P>
+                                <small class="text-black-50">
                                     This comment is awaiting approval
-                                </p>
-                            </small>
+                                </small>
+                            </P>
                         {% endif %}
                         <hr>
                     </div>
@@ -79,9 +79,11 @@
                 <div class="card-body">
                     {% if user.is_authenticated %}
                         <h3 class=" text-uppercase">Leave a comment:</h3>
-                        <small class="text-black-50">
-                            <p>Posting as: {{ user.username }}</p>
-                        </small>
+                        <p>
+                            <small class="text-black-50">
+                                Posting as: {{ user.username }}
+                            </small>
+                        </p>
                         <form id="commentForm" method="post">
                             {{ comment_form | crispy }}
                             {% csrf_token %}

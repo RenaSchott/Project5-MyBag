@@ -12,7 +12,6 @@ class ForumPostAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
 
 
-
 @admin.register(ForumComment)
 class ForumCommentAdmin(admin.ModelAdmin):
     """

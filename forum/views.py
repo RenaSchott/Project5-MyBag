@@ -10,15 +10,16 @@ from .forms import PostForm, CommentForm
 def forum(request):
     """ A view to return the forum page """
     posts = ForumPost.objects.all()
-    forumpostcategorys = None 
-
+    forumpostcategorys = None
 
     if 'forumpostcategory' in request.GET:
-        category = ForumPostCategory.objects.get(entry_cat=request.GET['forumpostcategory'])
+        category = ForumPostCategory.objects.get(
+                    entry_cat=request.GET['forumpostcategory'])
         posts = posts.filter(entry_cat__exact=category.pk)
-        forumpostcategorys = ForumPostCategory.objects.filter(entry_cat__in=request.GET['forumpostcategory'])
+        forumpostcategorys = ForumPostCategory.objects.filter(
+                                entry_cat__in=request.GET['forumpostcategory'])
 
-    context ={
+    context = {
         "posts": posts,
         'current_forumpostcategorys': forumpostcategorys,
     }
@@ -46,7 +47,6 @@ def single_post(request, post_id):
 
     comment_form = CommentForm()
 
-
     context = {
         'post': post,
         "comments": comments,
@@ -59,7 +59,7 @@ def single_post(request, post_id):
 @login_required
 def add_post(request):
     """
-    Add a post to the store with double security with either 
+    Add a post to the store with double security with either
     redirection to login page or to home page with error message
     """
     if not request.user.is_superuser:
@@ -73,10 +73,11 @@ def add_post(request):
             messages.success(request, 'Successfully added post!')
             return redirect(reverse('post_detail', args=[post.id]))
         else:
-            messages.error(request, 'Failed to add post. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add post.'
+                           'Please ensure the form is valid.')
     else:
         form = PostForm()
-        
+
     template = 'posts/add_post.html'
     context = {
         'form': form,
@@ -88,7 +89,7 @@ def add_post(request):
 @login_required
 def edit_post(request, post_id):
     """
-    Edit a post in the store with double security with either 
+    Edit a post in the store with double security with either
     redirection to login page or to home page with error message
     """
     if not request.user.is_superuser:
@@ -103,7 +104,8 @@ def edit_post(request, post_id):
             messages.success(request, 'Successfully updated post!')
             return redirect(reverse('post_detail', args=[post.id]))
         else:
-            messages.error(request, 'Failed to update post. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update post.'
+                           'Please ensure the form is valid.')
     else:
         form = PostForm(instance=post)
         messages.info(request, f'You are editing {post.name}')
@@ -120,7 +122,7 @@ def edit_post(request, post_id):
 @login_required
 def delete_post(request, post_id):
     """
-    Delete a post from the store with double security with either 
+    Delete a post from the store with double security with either
     redirection to login page or to home page with error message
     """
     if not request.user.is_superuser:
