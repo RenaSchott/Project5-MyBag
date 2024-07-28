@@ -79,7 +79,7 @@
         "model": "products.product",
         "fields": {
         "sku": "pp0000000006",
-        "name": "Sport Bag",
+        "name": "Sport Bag1",
         "material": "Synthetic",
         "description": "This sport bag has enough space for different sport activities.",
         "price": 30.99,
@@ -94,7 +94,7 @@
         "model": "products.product",
         "fields": {
         "sku": "pp0000000007",
-        "name": "Sport Bag",
+        "name": "Sport Bag2",
         "material": "Natural",
         "description": "This sport backpack has enough space for different sport activities.",
         "price": 50.99,
@@ -109,7 +109,7 @@
         "model": "products.product",
         "fields": {
         "sku": "pp0000000007",
-        "name": "Sport Bag",
+        "name": "Sport Bag3",
         "material": "Synthetic",
         "description": "This sport backpack has enough space for different outdoor sport activities.",
         "price": 130.99,

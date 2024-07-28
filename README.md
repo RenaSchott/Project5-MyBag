@@ -50,10 +50,6 @@ View the live project here: <https://mybag-731453a72029.herokuapp.com/>
     - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
   - [Testing](#testing)
-    - [Manual testing](#manual-testing)
-    - [Testing user stories](#testing-user-stories)
-    - [Validator testing](#validator-testing)
-    - [Unfixed bugs](#unfixed-bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Content](#content)
@@ -390,57 +386,7 @@ In the footer section of the main page a newsletter sign up section is included.
 
 ## Testing
 
-### Manual testing
-
-- The site was tested on different browsers: Chrome, Firefox and Safari.
-- I confirmed that the page is readable.
-- I confirmed that questions are functioning.
-
-| **Feature** | **Expect** | **Action** | **Result** |
-|---------------------|--------------------|--------------------------|------------------------------|
-|  |  |  |  |
-
-
-### Testing user stories
-
-| **Expectation - User** | **Result**|
-|--------------|------------|
-| |  |
-
-
-**As the administrator**
-
-| **Expectation - Administrator** | **Result**|
-|--------------|------------|
-|  |  |
-
-
-### Validator testing
-
-- **Validator W3**
-
-The exemplary test results: ![image of HTML Testing](readme-images/html.png)
-
-- **Validator W3C**
-
-The exemplary test results: ![image of CSS Testing](readme-images/css.png)
-
-- **JSHint**
-
-The exemplary test results: ![image of JS Testing](readme-images/js.png)
-
-- **CI Python Linter**
-
-The exemplary test results: ![image of PEP8 Testing](readme-images/pep8.png)
-
-
-- **Lighthouse**
-
-![]()
-
-### Unfixed bugs
-
-- The errors and warnings are django or jquery specific and therefore acceptable.
+Testings can be found here: [TESTING.md](TESTING.md)
 
 
 ## Deployment
