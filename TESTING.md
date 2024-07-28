@@ -12,9 +12,41 @@
 - I confirmed that the page is readable.
 - I confirmed that everything is functioning.
 
-| **Feature** | **Expect** | **Action** | **Result** |
-|---------------------|--------------------|--------------------------|------------------------------|
-|  |  |  |  |
+| **Feature**<br>         | **Expect**                                                                   | **Action**                             | **Result**                                                                                          |
+| ----------------------- | ---------------------------------------------------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Shop now                | User should be forwarded to all products page                                | click on button                        | Redirection to products page                                                                        |
+| Products details        | User should be forwarded to products detail page                             | click on image                         | Redirection to products detail page                                                                 |
+| Keep shopping           | User should be able to go back to products form products detail page         | click button                           | Redirection to products page                                                                        |
+| Add to shopping cart    | User should be able to add item to shopping cart                             | click on button                        | Item is added to shopping cart                                                                      |
+| Shopping cart           | User should be able to view the shopping cart                                | click on icon                          | Redirection to shopping cart                                                                        |
+| Udpate item             | User should be able to update quantity in shopping cart                      | add number & click on Update           | Quantity updated                                                                                    |
+| Remove item             | User should be able to update quantity in shopping cart                      | click remove                           | Item removed                                                                                        |
+| Secure checkout         | User should be able to make a secure checkout from shopping cart             | click on button                        | Redirection to secure checkout                                                                      |
+| Add personal detail     | User should able to add personal details for checkout or field are prefilled | add details                            | Details are displayed or added                                                                      |
+| Adjust Shoppingcart     | User should be able to adjust shoppingcart                                   | click button                           | Redirection to shopping cart                                                                        |
+| Complete order          | User should be able to complete the order                                    | click button                           | Redirection to thank you for your order page                                                        |
+| Continue shopping       | User should be able to continue shopping after purchase                      | click button                           | Redirection to products page                                                                        |
+| Keep shopping           | User should be able to go back to products form shopping cart                | click button                           | Redirection to products page                                                                        |
+| Mainpage                | User should be able to go back to main page                                  | click on MyBag or Home in navbar       | Redirection to landing page                                                                         |
+| Login                   | User should be forwarded to sign-in page                                     | click on button                        | Redirection to sign-in page                                                                         |
+| Update Information      | User should be able to update personal information in profile                | click on button                        | Information updated                                                                                 |
+| Old orders              | User should be able to view details of old orders in profile                 | click on order number                  | Redirection to thank you for your order page with details                                           |
+| Back to profile         | User should be able to go back to profile from old order information         | click on button                        | Redirection to profile                                                                              |
+| Sign-in                 | User should be forwarded to the homepage as login                            | fill in details and click on button    | Redirection to the homepage as logged-in user                                                       |
+| Logout                  | User should be forwarded to confirmation page                                | click on button                        | Redirection to confirmation page                                                                    |
+| Logout confirmation     | User should be forwarded to homepage                                         | click on button                        | Redirection to the homepage                                                                         |
+| Register                | User should be forwarded to signup form                                      | click on button                        | Redirection to signup form                                                                          |
+| Signup                  | User should be forwarded to the homepage as logged-in user                   | fill in details and click on button    | Redirection to the homepage as logged-in user                                                       |
+| Choose Category         | User should be able to choose the wanted category                            | click the wanted buttons in the navbar | Redirection to chosen page                                                                          |
+| Forum details           | User should be able to see whole article                                     | click on read more                     | Redirection to single article                                                                       |
+| Forum category          | User should be able to select a specific category                            | click on button                        | Redirection to category                                                                             |
+| Back to forum           | User should be able to go back to forum page                                 | click on back to overview              | Redirection to forum page                                                                           |
+| Submit comment          | User should be able to type in text and submit it                            | type and click on button               | Text box can be used and after clicking submission the comment can be seen as waiting for approval. |
+| Social media            | User should be forwarded to facebook                                         | click on icon                          | Facebook opens in another tab                                                                       |
+| Privacy Policy          | User should be forwarded to privacy policy                                   | <br>
+
+click on privacy policy          | Redirection to privacy policy                                                                       |
+| Newsletter subscription | User should be able to subscribe                                             | enter email adress and click subscribe | Confirmation is shown                                                                               |
 
 
 ## Testing user stories
