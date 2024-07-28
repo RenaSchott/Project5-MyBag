@@ -5,8 +5,10 @@
     {% trans "Sign Up Closed" %}
 {% endblock head_title %}
 {% block content %}
-    {% element h1 %}
+    <div class="m-5 text-white bg-primary text-center p-5 h-75 bg-grey">
+        {% element h1 %}
         {% trans "Sign Up Closed" %}
-    {% endelement %}
-    <p>{% trans "We are sorry, but the sign up is currently closed." %}</p>
+        {% endelement %}
+        <p>{% trans "We are sorry, but the sign up is currently closed." %}</p>
+    </div>
 {% endblock content %}

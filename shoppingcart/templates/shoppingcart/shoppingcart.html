@@ -64,8 +64,8 @@
                                 </div>
                             </div>
                           </form>
-                          <a class="update-link text-info small">Update</a>
-                          <a class="remove-item text-danger float-end small" id="remove_{{ item.item_id }}">
+                          <a  rel="next" class="update-link text-info small">Update</a>
+                          <a  rel="next" class="remove-item text-danger float-end small" id="remove_{{ item.item_id }}">
                             Remove
                           </a>
                         </td>
@@ -88,14 +88,14 @@
                 </tr>
                 <tr>
                     <td colspan="5" class="text-end">
-                        <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                        <a rel="next" rel="next" href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                             <span class="icon">
                                 <i class="fas fa-chevron-left"></i>
                             </span>
                             <span class="text-uppercase">Keep Shopping</span>
                         </a>
                         <br>
-                        <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
+                        <a rel="next" href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
                           <span class="icon">
                               <i class="fas fa-lock"></i>
                           </span>
@@ -107,7 +107,7 @@
             </div>
           {% else %}
             <p class="lead mb-5 text-center">Your shoppingcart is empty.</p>
-            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg d-flex justify-content-center">
+            <a rel="next" href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg d-flex justify-content-center">
               <span class="icon">
                 <i class="fas fa-chevron-left"></i>
               </span>

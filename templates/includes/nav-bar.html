@@ -1,5 +1,5 @@
 <div class="container-fluid w-auto mx-auto">
-    <a class="navbar-brand nav-link main-logo-link" href="{% url 'home' %}">
+    <a re="prev" class="navbar-brand nav-link main-logo-link" href="{% url 'home' %}">
         <h2 class="logo-font text-black my-0"><strong>MyBag</strong></h2>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,59 +8,59 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-              <a class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'home' %}">Home</a>
+              <a rel="prev" class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'home' %}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'about' %}">About&nbsp;Us</a>
+            <a rel="next" class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'about' %}">About&nbsp;Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'forum' %}">Forum</a>
+            <a rel="next" class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'forum' %}">Forum</a>
           </li>
           <li class="nav-item dropdown">
-              <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="all-products-link" data-bs-toggle="dropdown" aria-expanded="false">
+              <a rel="next" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="all-products-link" data-bs-toggle="dropdown" aria-expanded="false">
                   All Products
               </a>
               <ul class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                  <li><a href="{% url 'products' %}?sort=material&direction=asc" class="dropdown-item">By Material</a></li>
-                  <li><a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a></li>
-                  <li><a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a></li>
-                  <li><a href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?sort=material&direction=asc" class="dropdown-item">By Material</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a></li>
+                  <li><a rel="next" href="{% url 'products' %}" class="dropdown-item">All Products</a></li>
               </ul>
           </li>
           <li class="nav-item dropdown">
-              <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="gentlemen-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a rel="next" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="gentlemen-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Gentlemen
               </a>
               <ul class="dropdown-menu border-0" aria-labelledby="gentlemen-link">
-                  <li><a href="{% url 'products' %}?category=business_gentlemen" class="dropdown-item">Business</a></li>
-                  <li><a href="{% url 'products' %}?category=daily_use_gentlemen" class="dropdown-item">Daily Use</a></li>
-                  <li><a href="{% url 'products' %}?category=sport_gentlemen" class="dropdown-item">Sport</a></li>
-                  <li><a href="{% url 'products' %}?category=sale_gentlemen" class="dropdown-item">Sale</a></li>
-                  <li><a href="{% url 'products' %}?category=all_bags_gentlemen" class="dropdown-item">All Bags</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=business_gentlemen" class="dropdown-item">Business</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=daily_use_gentlemen" class="dropdown-item">Daily Use</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=sport_gentlemen" class="dropdown-item">Sport</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=sale_gentlemen" class="dropdown-item">Sale</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=all_bags_gentlemen" class="dropdown-item">All Bags</a></li>
               </ul>
           </li>
           <li class="nav-item dropdown">
-              <a class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="ladies-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a rel="next" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="ladies-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Ladies
               </a>
               <ul class="dropdown-menu border-0" aria-labelledby="ladies-link">
-                  <li><a href="{% url 'products' %}?category=business_ladies" class="dropdown-item">Business</a></li>
-                  <li><a href="{% url 'products' %}?category=daily_use_ladies" class="dropdown-item">Daily Use</a></li>
-                  <li><a href="{% url 'products' %}?category=sport_ladies" class="dropdown-item">Sport</a></li>
-                  <li><a href="{% url 'products' %}?category=event_ladies" class="dropdown-item">For Events</a></li>
-                  <li><a href="{% url 'products' %}?category=sale_ladies" class="dropdown-item">Sale</a></li>
-                  <li><a href="{% url 'products' %}?category=all_bags_ladies" class="dropdown-item">All Bags</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=business_ladies" class="dropdown-item">Business</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=daily_use_ladies" class="dropdown-item">Daily Use</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=sport_ladies" class="dropdown-item">Sport</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=event_ladies" class="dropdown-item">For Events</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=sale_ladies" class="dropdown-item">Sale</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=all_bags_ladies" class="dropdown-item">All Bags</a></li>
               </ul>
           </li>
           <li class="nav-item dropdown">
-              <a class="logo-font font-weight-bold nav-link text-black dropdown-toggle" href="#" role="button" id="children-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a rel="next" class="logo-font font-weight-bold nav-link text-black dropdown-toggle" href="#" role="button" id="children-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Children
               </a>
               <ul class="dropdown-menu border-0" aria-labelledby="children-link">
-                  <li><a href="{% url 'products' %}?category=school_children" class="dropdown-item">For School</a></li>
-                  <li><a href="{% url 'products' %}?category=sport_children" class="dropdown-item">Sport</a></li>
-                  <li><a href="{% url 'products' %}?category=sale_children" class="dropdown-item">Sale</a></li>
-                  <li><a href="{% url 'products' %}?category=all_bags_children" class="dropdown-item">All Bags</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=school_children" class="dropdown-item">For School</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=sport_children" class="dropdown-item">Sport</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=sale_children" class="dropdown-item">Sale</a></li>
+                  <li><a rel="next" href="{% url 'products' %}?category=all_bags_children" class="dropdown-item">All Bags</a></li>
               </ul>
           </li>
       </ul>
@@ -78,7 +78,7 @@
       </form>
       <div class="col-12 col-lg-3 py-2 py-lg-0 d-flex justify-content-end dropdown ms-3">
         <div class="navbar-nav me-auto mb-2 mb-lg-0">
-            <a class="btn dropdown-toggle nav-link text-dark" href="#" role="button" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a rel="next" class="btn dropdown-toggle nav-link text-dark" href="#" role="button" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-user fa-lg"></i>
                 <span class="my-0" >My Account</span>
             </a>
@@ -86,19 +86,19 @@
                 <li class="list-inline-item dropdown">
                         {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                                <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                <a rel="next" href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
                             {% endif %}
-                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                            <a rel="next" href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                            <a rel="next" href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                         {% else %}
-                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                            <a rel="next" href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a rel="next" href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                         {% endif %}
                 </li>
             </ul>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_shoppingcart' %}">
+                    <a rel="next" class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_shoppingcart' %}">
                         <div class="text-center">
                             <i class="fas fa-shopping-bag fa-lg"></i>
                             <span class="my-0">
