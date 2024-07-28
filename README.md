@@ -2,7 +2,9 @@
 
 MyBag is an ecommerce website where different bags for different occassions can be bought.
 
-View the live project here: <>
+![Responsivness](readme-images/responsivness.png)
+
+View the live project here: <https://mybag-731453a72029.herokuapp.com/>
 
 
 ## Table of content
@@ -470,7 +472,7 @@ For deployment:
 - Choose Automatic Deploys for easier handling.
 - Then deploy
  
-The link to the live page can be found here: [] (<>)
+The link to the live page can be found here: (<https://mybag-731453a72029.herokuapp.com/>)
 
 
 ## Credits

@@ -11,7 +11,7 @@
             "entry_cat": 1,
             "short": "This new and fantastic bag just arrived in our warehouse for our producer.",
             "image_url": "",
-            "image": "sport_chil.png",
+            "image": "sport_chil.webp",
             "status": 1,
             "updated_on": "2024-07-26",
             "approved": 1
@@ -29,7 +29,7 @@
             "entry_cat": 2,
             "short": "This comfortable, leather bag is in sale now.",
             "image_url": "",
-            "image": "dailyuse_gentlemen.jpg",
+            "image": "dailyuse_gentlemen.webp",
             "status": 1,
             "updated_on": "2024-07-26",
             "approved": 1
@@ -47,7 +47,7 @@
             "entry_cat": 3,
             "short": "We are planning on opening a local store.",
             "image_url": "",
-            "image": "homepage_image.jpg",
+            "image": "homepage_image.webp",
             "status": 1,
             "updated_on": "2024-07-26",
             "approved": 1
