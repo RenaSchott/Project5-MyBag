@@ -26,7 +26,7 @@
         "category": [1, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "business_gentlemen2.webp"
+        "image": "business_gentlemen2.jpg"
         }
     },
     {
@@ -41,7 +41,7 @@
         "category": [2, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "dailyuse_gentlemen.webp"
+        "image": "dailyuse_gentlemen.jpg"
         }
     },
     {
@@ -56,7 +56,7 @@
         "category": [2, 4, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "dailyuse_gentlemen2.webp"
+        "image": "dailyuse_gentlemen2.jpg"
         }
     },
     {
@@ -71,7 +71,7 @@
         "category": [2, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "dailyuse_gentlemen3.webp"
+        "image": "dailyuse_gentlemen3.jpg"
         }
     },
     {
@@ -86,7 +86,7 @@
         "category": [3, 4, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_gentlemen.webp"
+        "image": "sport_gentlemen.jpg"
         }
     },
     {
@@ -101,7 +101,7 @@
         "category": [3, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_gentlemen2.webp"
+        "image": "sport_gentlemen2.jpg"
         }
     },
     {
@@ -116,7 +116,7 @@
         "category": [3, 5],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_gentlemen3.webp"
+        "image": "sport_gentlemen3.jpg"
         }
     },
     {
@@ -131,7 +131,7 @@
         "category": [6, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "business_ladies.webp"
+        "image": "business_ladies.jpg"
         }
     },
     {
@@ -146,7 +146,7 @@
         "category": [7, 10, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "dailyuse_ladies.webp"
+        "image": "dailyuse_ladies.jpg"
         }
     },
     {
@@ -161,7 +161,7 @@
         "category": [7, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "dailyuse_ladies2.webp"
+        "image": "dailyuse_ladies2.jpg"
         }
     },
     {
@@ -176,7 +176,7 @@
         "category": [8, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_ladies.webp"
+        "image": "sport_ladies.jpg"
         }
     },
     {
@@ -191,7 +191,7 @@
         "category": [8, 10, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_ladies2.webp"
+        "image": "sport_ladies2.jpg"
         }
     },
     {
@@ -206,7 +206,7 @@
         "category": [9, 11],
         "rating": 4.6,
         "image_url": "",
-        "image": "event.webp"
+        "image": "event.jpg"
         }
     },
     {
@@ -221,7 +221,7 @@
         "category": [12, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "schoolbag_1.webp"
+        "image": "schoolbag_1.jpg"
         }
     },
     {
@@ -236,7 +236,7 @@
         "category": [12, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "schoolbag_2.webp"
+        "image": "schoolbag_2.jpg"
         }
     },
     {
@@ -251,7 +251,7 @@
         "category": [12, 14, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "schoolbag_3.webp"
+        "image": "schoolbag_3.jpg"
         }
     },
     {
@@ -266,7 +266,7 @@
         "category": [12, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "schoolbag_4.webp"
+        "image": "schoolbag_4.jpg"
         }
     },
     {
@@ -281,7 +281,7 @@
         "category": [13, 15],
         "rating": 4.6,
         "image_url": "",
-        "image": "sport_chil.webp"
+        "image": "sport_chil.jpg"
         }
     }
 ]
