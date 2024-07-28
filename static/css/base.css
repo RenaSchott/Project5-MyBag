@@ -226,8 +226,7 @@ body {
   }
 
   .searchbar {
-    max-width: 150px;
-    color:red;
+    max-width: 150px !important;
   }
 }
 
