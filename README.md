@@ -2,6 +2,10 @@
 
 MyBag is an ecommerce website where different bags for different occassions can be bought.
 
+The site includes helpful features such as a profile, about us and forums page.
+
+Returning customers can make a faster checkout and they can see their order history. They can find useful informations in the forum and about us section.
+
 ![Responsivness](readme-images/responsivness.png)
 
 View the live project here: <https://mybag-731453a72029.herokuapp.com/>
