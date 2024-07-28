@@ -107,7 +107,7 @@ The user stories can be found here <https://github.com/RenaSchott/Project5-MyBag
 - As a developer I want to be able to finish the Readme File so that I can finish the project.
 - As a developer I want to be able to make the final deployment so that I can submit a working project.
 - As a shopper I want to be able to view a list of products so that I can select some to purchase.
-- As a shopper I want to be able to view individual product details so that I can identify the price, description, product rating, product image and available sizes.
+- As a shopper I want to be able to view individual product details so that I can identify the price, description, product rating and product image.
 - As a shopper I want to be able to quickly identify deals, clearance items and special offers so that I can take advantage of special savings on products I’d like to purchase.
 - As a shopper I want to be able to easily view the total of my purchase at any time so that I can avoid spending too much.
 - As a site user I want to be able to easily register for an account so that I can have a personal account and be able to view my profile.
@@ -120,7 +120,7 @@ The user stories can be found here <https://github.com/RenaSchott/Project5-MyBag
 - As a shopper I want to be able to sort multiples categories of products simultaneously so that I can find the best-priced or best-rated products across broad categoried, such as „school bags“.
 - As a shopper I want to be able to search for a product by name or description so that I can find a specific product I’d like to purchase.
 - As a shopper I want to be able to easily see what I’ve searched for and the number of results so that I can quickly decide whether the product I want is available.
-- As a shopper I want to be able to easily select the size and quantity of a product when purchasing it so that I can ensure I don’t accidentially select the wrong product, quantity or size.
+- As a shopper I want to be able to easily select quantity of a product when purchasing it so that I can ensure I don’t accidentially select the wrong product or quantity.
 - As a shopper I want to be able to view items in my shopping cart to be purchased so that I can identify the total cost of my purchase and all items I will receive.
 - As a shopper I want to be able to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
 - As a shopper I want to be able to easily enter my payment information so that I can check out quickly and with no hassle.
@@ -198,8 +198,7 @@ Here is the outlined ERD:
 
 - Search and filter items and categories
 - Interacting with item
-    - view sizes
-    - view colors
+    - details
 - Create new account
 - Logging in and out of the page
     - Make a new order
