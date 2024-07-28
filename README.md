@@ -47,7 +47,6 @@ View the live project here: <https://mybag-731453a72029.herokuapp.com/>
     - [Social media marketing](#social-media-marketing)
     - [Email marketing](#email-marketing)
   - [Used Technologies](#used-technologies)
-    - [Languages Used](#languages-used)
     - [Framework, Libraries and Programs](#framework-libraries-and-programs)
   - [Testing](#testing)
   - [Deployment](#deployment)
@@ -348,19 +347,32 @@ In the footer section of the main page a newsletter sign up section is included.
 
 ## Used Technologies
 
-### Languages Used
-
-- HTML, CSS, Python, Jinja
-
 ### Framework, Libraries and Programs
 
-- Frameworks 
+- Frameworks  were used to speed up
     - Django
     - Bootstrap
-- Libraries 
-    - 
-- Moduls
-    - 
+
+- Libraries & Moduls
+    - jQuery
+    - Gunicorn
+        - was used as python http server for WSGI applications
+    - Pyscopg2
+        - was used as PostgresSQL Database adapter
+    - Pillow
+        - was used for python imaging
+    - Boto2
+        - was used for integration with AWS services
+    - Django-storages
+        - was used as collection of custom storage backends for Django
+    - Django-allauth
+        - was used to create user authentication
+    - Django-crispy-forms/Crispy-bootstrap5
+        - was used to control rendering behavior of Django forms
+    - Whitenoise
+        - was used to serve static non-media files
+    
+
 - Programs
     - Balsamiq
         - was used to create the wireframes
@@ -373,15 +385,31 @@ In the footer section of the main page a newsletter sign up section is included.
     - Gitpod
         - was used to write the code and commit it to GitHub
     - Heroku 
-        - was used to deploy the project 
-    - ElephantSQL
-        - was used for storing the database    
+        - was used to deploy the project  
+    - Validator W3
+        - was used to validate the HTML
+    - Validator W3C
+        - was used to validate the CSS
+    - JSHint
+        - was used to validate the JavaScript
     - CI Python Linter
         - was used for finding errors
+    - AWS (Amazon Web services (S3))
+        - was used to host staic and media files
     - Wordtracker
         - was used for long-tail keyword testing
     - Languagetool
         - was used to check the spelling and grammar in the README file.
+    - Stripe
+        - was used as online payment platform
+    - Gmail
+        - was used for real email sending
+    - Mailchimp
+        - was used for automated newsletter subscription
+    - Sitemap generator
+        - was used for better SEO
+    - Privacy Policy Generator
+        - was used for SEO
 
 
 ## Testing
