@@ -3,7 +3,6 @@ from django.http import HttpResponse
 from django.contrib import messages
 from products.models import Product
 
-# Create your views here.
 
 def view_shoppingcart(request):
     """ A view that renders the shopping cart """
@@ -22,10 +21,12 @@ def add_to_shoppingcart(request, item_id):
 
     if item_id in list(shoppingcart.keys()):
         shoppingcart[item_id] += quantity
-        messages.success(request, f'Updated {product.name} quantity to {shoppingcart[item_id]}.')
+        messages.success(request,
+                         f'New: {product.name} qty: {shoppingcart[item_id]}.')
     else:
         shoppingcart[item_id] = quantity
-        messages.success(request, f'Added {product.name} to your shoppingcart.')
+        messages.success(request,
+                         f'Added {product.name} to your shoppingcart.')
 
     request.session['shoppingcart'] = shoppingcart
     return redirect(redirect_url)
@@ -39,7 +40,8 @@ def adjust_shoppingcart(request, item_id):
 
     if quantity > 0:
         shoppingcart[item_id] = quantity
-        messages.success(request, f'Updated {product.name} quantity to {shoppingcart[item_id]}.')
+        messages.success(request,
+                         f'New: {product.name} qty: {shoppingcart[item_id]}.')
     else:
         shoppingcart.pop(item_id)
         messages.success(request, f'Removed {product.name} from shoppingcart.')
