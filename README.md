@@ -411,9 +411,21 @@ In the footer section of the main page a newsletter sign up section is included.
 
 ### Validator testing
 
+- **Validator W3**
+
+The test results: ![image of HTML Testing](readme-images/html.png)
+
+- **Validator W3C**
+
+The test results: ![image of CSS Testing](readme-images/css.png)
+
+- **JSHint**
+
+The test results: ![image of JS Testing](readme-images/js.png)
+
 - **CI Python Linter**
 
-![]()
+The test results: ![image of PEP8 Testing](readme-images/pep8.png)
 
 
 - **Lighthouse**
@@ -422,7 +434,7 @@ In the footer section of the main page a newsletter sign up section is included.
 
 ### Unfixed bugs
 
-- The comments are acceptable.
+- The errors and warnings are django specific and therefore acceptable.
 
 
 ## Deployment
