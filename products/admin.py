@@ -46,13 +46,15 @@ class UserRatingAdmin(admin.ModelAdmin):
 
     ordering = ('review',)
 
+
 admin.site.register(Category, CategoryAdmin)
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Review, ReviewAdmin)
 admin.site.register(UserRating, UserRatingAdmin)
 admin.site.register(UserAccount)
 
-# Defined an inline admin descriptor for UserAccount which acts a bit like a singleton
+
+# Defined an inline admin descriptor for UserAccount
 class UserAccountInline(admin.StackedInline):
     model = UserAccount
     can_delete = False
