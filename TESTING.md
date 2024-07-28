@@ -43,9 +43,7 @@
 | Back to forum           | User should be able to go back to forum page                                 | click on back to overview              | Redirection to forum page                                                                           |
 | Submit comment          | User should be able to type in text and submit it                            | type and click on button               | Text box can be used and after clicking submission the comment can be seen as waiting for approval. |
 | Social media            | User should be forwarded to facebook                                         | click on icon                          | Facebook opens in another tab                                                                       |
-| Privacy Policy          | User should be forwarded to privacy policy                                   | <br>
-
-click on privacy policy          | Redirection to privacy policy                                                                       |
+| Privacy Policy          | User should be forwarded to privacy policy                                   | click on privacy policy          | Redirection to privacy policy                                                                       |
 | Newsletter subscription | User should be able to subscribe                                             | enter email adress and click subscribe | Confirmation is shown                                                                               |
 
 
