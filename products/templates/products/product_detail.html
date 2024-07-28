@@ -17,11 +17,11 @@
                 <div class="image-container my-5">
                     {% if product.image %}
                         <a rel="help" href="{{ product.image.url }}" target="_blank">
-                            <img class="card-img-top img-fluid img-height" style="max-height: 70vh; width: auto;" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid img-height" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
                     {% else %}
                         <a href="">
-                            <img class="card-img-top img-fluid img-height" style="max-height: 70vh; width: auto;" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                            <img class="card-img-top img-fluid img-height" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                         </a>
                     {% endif %}
                 </div>
