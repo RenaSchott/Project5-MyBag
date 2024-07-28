@@ -7,14 +7,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-              <a rel="prev" class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'home' %}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a rel="next" class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'about' %}">About&nbsp;Us</a>
-          </li>
-          <li class="nav-item">
-            <a rel="next" class="nav-link active logo-font font-weight-bold nav-link text-black mr-5" aria-current="page" href="{% url 'forum' %}">Forum</a>
+          <li class="nav-item dropdown">
+              <a rel="next" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="all-products-link" data-bs-toggle="dropdown" aria-expanded="false">
+                Home&nbsp;and&nbsp;More
+              </a>
+              <ul class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                  <li><a rel="prev" href="{% url 'home' %}" class="dropdown-item">Home</a></li>
+                  <li><a rel="next" href="{% url 'about' %}" class="dropdown-item">About&nbsp;Us</a></li>
+                  <li><a rel="next" href="{% url 'forum' %}" class="dropdown-item ">Forum</a></li>
+              </ul>
           </li>
           <li class="nav-item dropdown">
               <a rel="next" class="logo-font font-weight-bold nav-link text-black mr-5 dropdown-toggle" href="#" role="button" id="all-products-link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -64,9 +65,9 @@
               </ul>
           </li>
       </ul>
-      <form class="d-flex col-12 col-lg-3" method="GET" action="{% url 'products' %}">
+      <form class="d-flex col-12 searchbar" method="GET" action="{% url 'products' %}">
           <div class="input-group">
-              <input class="form-control border border-black rounded-0" type="search" name="q" placeholder="Search" style="width:100px;">
+              <input class="form-control border border-black rounded-0" type="search" name="q" placeholder="Search">
               <div class="input-group-append">
                   <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                       <span class="icon">
@@ -112,8 +113,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
-        
+        </div> 
       </div>
     </div>
   </div>
