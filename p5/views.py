@@ -13,5 +13,3 @@ def handler500(request):
     Custom 500 page
     """
     return render(request, "errors/500.html", status=500)
-
-
