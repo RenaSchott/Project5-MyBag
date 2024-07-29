@@ -419,37 +419,30 @@ Testings can be found here: [TESTING.md](TESTING.md)
 
 ## Deployment
 
+The deployment was done after the tutorial in the course content using [Heroku](https://www.heroku.com/), [AWS](https://aws.amazon.com/de/), [PostgreSQL from Code Institute](https://dbs.ci-dbs.net/) and [Whitenoise](https://whitenoise.readthedocs.io/en/latest/).
+
 For deployment:
+- some libraries have to be installed - for details see [Used Technologies](#used-technologies)
 - create a new database <https://dbs.ci-dbs.net/>
 - A Heroku account must be created.
 - Set your GitHub repository to public.
-- Create a new app in Heroku with the following settings:
-    - Add the DATABASE_URL to config vars in settings
+- Create a db with CI database Maker.
+- Hide sensitive information in the env.py with the .gitignore file and update the settings.py file.
 - Within the project:
     - Connect to database
     - Create database tables
     - Add shop fixtures
     - Create a superuser
-
-    Create an app on Heroku, as we have done for previous projects.
-
-    Create a database. For this we’ll use PostgreSQL from Code Institute, as the Heroku add-ons are not available on the Student Pack.
-
-    Set up hosting for our static and media files with AWS (Amazon Web Services). Specifically, we will use S3 (“Simple Storage Service”) for this.
-
-
-The deployment was done after the tutorial in the course content using <https://www.heroku.com/>.
-
-For deployment:
-- A Heroku account must be created.
-- Set your GitHub repository to public.
+- Create an AWS Account and within set the IAM and S3 up for the project.
+    - host static and media files
 - Create a new app in Heroku with the following settings:
-  - Add Python and Node.js (in this order!)
-  - Add PORT as key and 8000 as value
-- The Heroku App must be linked to the correct repo in GitHub
-- Choose Automatic Deploys for easier handling.
-- Then deploy
- 
+    - Add the DATABASE_URL to config vars in settings.
+    - Add the SECRET_KEY and other config vars
+    - Add AWS Keys
+    - - The Heroku App must be linked to the correct repo in GitHub
+    - Choose Automatic Deploys for easier handling.
+    - Then deploy
+
 The link to the live page can be found here: (<https://mybag-731453a72029.herokuapp.com/>)
 
 
