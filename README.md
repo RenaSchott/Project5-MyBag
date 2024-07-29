@@ -309,6 +309,97 @@ The background color of nearly every page is a warm beige.
 ![Screen shot of ceckout complete page of the project](readme-images/checkoutcomplete.png)
 ![Screen shot of ceckout complete page of the project](readme-images/checkoutcompletem.png)
 
+### Login
+
+- The login page as an example of the styling of the allauth templates give the user the opportunity to login or to go to the register page.
+- The template has a grey background ontop of the beige site background and the color is mainly white.
+
+![Screen shot of an exemplary allauth page of the project](readme-images/exemplaryallauthtemplate.png)
+![Screen shot of exemplary allauth page of the project](readme-images/exemplaryallauthtemplatem.png)
+
+### Forum
+
+- The forum page displays the forum entries as a list with their image, title, excerpt from the content, release date and the opportunity to view the complete post.
+- Users can filter the posts via category.
+- The background of each post is reen brown which gives a nice contrast to the site background and the black text color.
+
+![Screen shot of forum page of the project](readme-images/forum.png)
+![Screen shot of forum page of the project](readme-images/forumm.png)
+
+### Message
+
+- To get a better UX messages comment the users most important clicks.
+- The user themself can close the message.
+- The message has a white and slightly transparent background and the text color is red to get the users attention.
+
+![Screen shot of an exemplary message of the project](readme-images/messageexample.png)
+![Screen shot of an exemplary message of the project](readme-images/messageexamplem.png)
+
+### Forum post
+
+- The detailed view of a forum post displays next to image, title, authot and release date, the whole content.
+- The User can go back to the forum. or read a comment below the forum post.
+- The authenticated users can leave a comment.
+- The chosen colors are white as the background for the comments section and dark red and black for the text color.
+
+![Screen shot of forum post of the project](readme-images/post1.png)
+![Screen shot of forum post of the project](readme-images/post2.png)
+![Screen shot of forum post of the project](readme-images/post1m.png)
+![Screen shot of forum post of the project](readme-images/postm2.png)
+
+### Productmanagement
+
+- Authenticated superusers can add new products.
+- Chosen colors are black and dark red.
+
+![Screen shot of productmanagement page of the project](readme-images/productmanagement.png)
+![Screen shot of productmanagement page of the project](readme-images/productmanagement2.png)
+![Screen shot of productmanagement page of the project](readme-images/productmanagementm.png)
+![Screen shot of productmanagement page of the project](readme-images/productmanagement2m.png)
+
+### Product details
+
+- The user can view every needed product detail for a purchase. They can choose to go back to products page or to add the product to the shopping cart.
+- The authenticate superusers can choose to edit or delete this product.
+- Chosen colors are black, white and mainly dark red.
+
+![Screen shot of product detail page of the project](readme-images/productsdetail.png)
+![Screen shot of product detail page of the project](readme-images/productsdetailm.png)
+
+### Products
+
+- Users can sort the products.
+- All selected products are displayed with some information and the opportunity to go to the detail product page for more information.
+- Users can see how many products are displayed. More information as category can be displayed at this place if chosen by the user.
+- An arrow up in the bottom right corner brings the user back to the top of the page.
+- The authenticate superusers can choose to edit or delete specific products.
+- Chosen colors are black, white and dark red.
+
+![Screen shot of products page of the project](readme-images/productspage.png)
+![Screen shot of products page of the project](readme-images/productspagem.png)
+
+### Profile
+
+- Users can view their profile with their personal and order information.
+- Personal information can be edited and updated.
+- Order information are listed. The order number can be clicked for more details.
+- Chosen colors are mainly black and dark red.
+
+![Screen shot of profile page of the project](readme-images/profile.png)
+![Screen shot of profile page of the project](readme-images/profile1m.png)
+![Screen shot of profile page of the project](readme-images/profile2m.png)
+
+### Shoppingcart
+
+- Users can view their shopping cart.
+- Main details are displayed.
+- Products can be deleted or the user can update the wanted quantity.
+- User can choose to go back to the products page or start the checkout.
+- Chosen colors are black, white and dark red.
+
+![Screen shot of products page of the project](readme-images/productspage.png)
+![Screen shot of products page of the project](readme-images/productspagem.png)
+
 ### Features left to implement
 
 There is the possibility to integrate:
