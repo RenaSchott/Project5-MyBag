@@ -290,6 +290,25 @@ The background color of nearly every page is a warm beige.
 ![Screen shot of about us page of the project](readme-images/aboutus.png)
 ![Screen shot of about us page of the project](readme-images/aboutusm.png)
 
+### Checkout
+
+- The checkout page gives the user the opportunity to review there ongoing purchase and to add their personal and payment information to complete their order.
+- Saved personal information are integrated automatically. The user can edit them
+- The chosen colors are mainly black and dark red.
+
+![Screen shot of checkout page of the project](readme-images/checkout1.png)
+![Screen shot of checkout page of the project](readme-images/checkout2.png)
+![Screen shot of checkout page of the project](readme-images/checkout1m.png)
+![Screen shot of checkout page of the project](readme-images/checkout2m.png)
+
+### Checkout complete
+
+- The checkout complete pages gives an overview of the completed purchase with every information displayed.
+- The chosen colors are mainly black and dark red.
+
+![Screen shot of ceckout complete page of the project](readme-images/checkoutcomplete.png)
+![Screen shot of ceckout complete page of the project](readme-images/checkoutcompletem.png)
+
 ### Features left to implement
 
 There is the possibility to integrate:
