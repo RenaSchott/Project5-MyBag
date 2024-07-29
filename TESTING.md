@@ -110,6 +110,10 @@ The exemplary test results: ![image of JS Testing](readme-images/js.png)
 
 The exemplary test results: ![image of PEP8 Testing](readme-images/pep8.png)
 
+- **Flake 8**
+
+Used on custom written code.
+
 
 - **Lighthouse**
 
