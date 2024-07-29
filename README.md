@@ -455,14 +455,15 @@ The content of this project was inspired by the "Boutique Ado" project and the c
   - <https://docs.djangoproject.com/en/4.2/ref/contrib/flatpages/>
   - <https://www.w3schools.com/>
   - <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
+  - <https://docs.djangoproject.com/>
+  - <https://stackoverflow.com/>
   
 
 Inspirations for specific problems were taken from the following websites:
   - <https://espere.in/Django-Allauth:-How-to-create-social-login-like-Facebook-Google-Github-and-Twitter-in-django/>
   - <https://docs.allauth.org/en/latest/installation/quickstart.html>
-  - <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
   - <https://www.strategyzer.com/library/the-business-model-canvas>
-  - <https://docs.djangoproject.com/en/5.0/topics/auth/customizing/#extending-the-existing-user-model>
+  - <https://docs.djangoproject.com/>
   - <https://stackoverflow.com/questions/16285939/aligning-li-next-to-each-other-not-working>
   
 ### Media
@@ -473,6 +474,5 @@ Images were downloaded from <https://pixabay.com/de/>
 
 - I would love to thank the following persons:
   - My mentor for his support
-  - The Code Institute tutor support for their fast answers
   - My facilitator for her support
   - The slack community for their fast answers and support

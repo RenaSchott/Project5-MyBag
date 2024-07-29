@@ -113,8 +113,11 @@ The exemplary test results: ![image of PEP8 Testing](readme-images/pep8.png)
 
 - **Lighthouse**
 
-![]()
+The results of the lighthouse analysis: ![image of lighthouse analysis](readme-images/lighthouse.png)
+
+Details of the problems: ![image of the lighthouse analysis problems](readme-images/problems.png)
 
 ## Unfixed bugs
 
-- The errors and warnings are django or jquery specific and therefore acceptable.
+- HTML: The errors and warnings are django or jquery specific and therefore acceptable.
+- Lighthouse: This problem occurs because of the new google guidelines for the usage of third party cookies. Stripe tries to solve it. At the moment there is not problem with the integration. As soon as stripe and google find a solution, I am going to solve it: <https://support.stripe.com/questions/chrome-third-party-cookie-warnings-for-websites-using-stripe-js>
