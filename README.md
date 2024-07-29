@@ -254,18 +254,41 @@ The images and icons are mainly used to help navigation and for product details.
 
 ## Features
 
+Images are showing fullscreen and mobile screen.
+The background color of nearly every page is a warm beige.
+
 ### Welcome screen
 
-- 
+- Welcomes the user and gives them the opportunity to start their shopping experience via button clicking.
+- The background image is colorful and it should arouse the visitor's interest.
 
-![Screen shot of the welcome screen of the project](readme-images/welcome-screen.png)
+![Screen shot of the welcome screen of the project](readme-images/homepage.png)
+![Screen shot of the welcome screen of the project](readme-images/homepage-m.png)
 
 
-### User moves
+### Navbar/Header
 
-- 
+- The header contains links to every page on the website where the user has access to it. Some menu part are collapsable on large screens and the wohle menu is collapsable on mobile view.
+- For better readability only white and black was used.
 
-![]()
+![Screen shot of the navbar of the project](readme-images/navbar.png)
+![Screen shot of the navbar screen of the project](readme-images/navbarm.png)
+
+### Footer
+
+- The footer gives the user the opportunity the visit the facebook page, read the privacy policy and to subscribe to the newsletter.
+- The chosen colors are mainly black and white for better readability.
+
+![Screen shot of the footer of the project](readme-images/footer.png)
+![Screen shot of the footer of the project](readme-images/footerm.png)
+
+### About us
+
+- The about us page gives an overview of the attitude of the company and it gives the user the opportunity to contact to company.
+- The chosen colors are dark red for the text and grey for the line.
+
+![Screen shot of about us page of the project](readme-images/aboutus.png)
+![Screen shot of about us page of the project](readme-images/aboutusm.png)
 
 ### Features left to implement
 
@@ -273,6 +296,13 @@ There is the possibility to integrate:
 
 - **V2 (version 2)**
     - Advertisement
+        - Add
+        - Delete
+        - Edit
+    - Comment Management
+        - Edit
+        - Delete
+    - Category Management
         - Add
         - Delete
         - Edit
