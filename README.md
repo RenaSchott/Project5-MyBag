@@ -33,11 +33,20 @@ View the live project here: <https://mybag-731453a72029.herokuapp.com/>
       - [Skeleton](#skeleton)
       - [Surface](#surface)
   - [Features](#features)
+    - [About us](#about-us)
+    - [Checkout](#checkout)
+    - [Checkout complete](#checkout-complete)
+    - [Login](#login)
+    - [Footer](#footer)
+    - [Forum](#forum)
+    - [Message](#message)
+    - [Navbar/Header](#navbar/header)
+    - [Forum post](#forum-post)
+    - [Productmanagement](#productmanagement)
+    - [Product details](#product-details)
+    - [Profile](#profile)
+    - [Shoppingcart](#shoppingcart)
     - [Welcome screen](#welcome-screen)
-    - [Username](#username)
-    - [Game rules](#game-rules)
-    - [Game board](#game-board)
-    - [User moves](#user-moves)
     - [Features left to implement](#features-left-to-implement)
   - [SEO](#seo)
     - [Search results for keywords](#search-results-for-keywords)
@@ -257,31 +266,6 @@ The images and icons are mainly used to help navigation and for product details.
 Images are showing fullscreen and mobile screen.
 The background color of nearly every page is a warm beige.
 
-### Welcome screen
-
-- Welcomes the user and gives them the opportunity to start their shopping experience via button clicking.
-- The background image is colorful and it should arouse the visitor's interest.
-
-![Screen shot of the welcome screen of the project](readme-images/homepage.png)
-![Screen shot of the welcome screen of the project](readme-images/homepage-m.png)
-
-
-### Navbar/Header
-
-- The header contains links to every page on the website where the user has access to it. Some menu part are collapsable on large screens and the wohle menu is collapsable on mobile view.
-- For better readability only white and black was used.
-
-![Screen shot of the navbar of the project](readme-images/navbar.png)
-![Screen shot of the navbar screen of the project](readme-images/navbarm.png)
-
-### Footer
-
-- The footer gives the user the opportunity the visit the facebook page, read the privacy policy and to subscribe to the newsletter.
-- The chosen colors are mainly black and white for better readability.
-
-![Screen shot of the footer of the project](readme-images/footer.png)
-![Screen shot of the footer of the project](readme-images/footerm.png)
-
 ### About us
 
 - The about us page gives an overview of the attitude of the company and it gives the user the opportunity to contact to company.
@@ -334,6 +318,22 @@ The background color of nearly every page is a warm beige.
 
 ![Screen shot of an exemplary message of the project](readme-images/messageexample.png)
 ![Screen shot of an exemplary message of the project](readme-images/messageexamplem.png)
+
+### Navbar/Header
+
+- The header contains links to every page on the website where the user has access to it. Some menu part are collapsable on large screens and the wohle menu is collapsable on mobile view.
+- For better readability only white and black was used.
+
+![Screen shot of the navbar of the project](readme-images/navbar.png)
+![Screen shot of the navbar screen of the project](readme-images/navbarm.png)
+
+### Footer
+
+- The footer gives the user the opportunity the visit the facebook page, read the privacy policy and to subscribe to the newsletter.
+- The chosen colors are mainly black and white for better readability.
+
+![Screen shot of the footer of the project](readme-images/footer.png)
+![Screen shot of the footer of the project](readme-images/footerm.png)
 
 ### Forum post
 
@@ -399,6 +399,14 @@ The background color of nearly every page is a warm beige.
 
 ![Screen shot of products page of the project](readme-images/productspage.png)
 ![Screen shot of products page of the project](readme-images/productspagem.png)
+
+### Welcome screen
+
+- Welcomes the user and gives them the opportunity to start their shopping experience via button clicking.
+- The background image is colorful and it should arouse the visitor's interest.
+
+![Screen shot of the welcome screen of the project](readme-images/homepage.png)
+![Screen shot of the welcome screen of the project](readme-images/homepage-m.png)
 
 ### Features left to implement
 
